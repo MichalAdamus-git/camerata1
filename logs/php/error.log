@@ -1,0 +1,367 @@
+[30-Sep-2023 16:06:02 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 5
+[30-Sep-2023 16:06:02 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 5
+[30-Sep-2023 16:06:51 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 7
+[30-Sep-2023 16:06:51 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 7
+[30-Sep-2023 16:36:09 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:36:09 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:36:10 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:36:10 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:36:15 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:37:06 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:37:06 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:37:06 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:37:06 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:37:11 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:37:12 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:37:12 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:37:12 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:45:48 UTC] PHP Parse error:  Unmatched ')' in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\index.php on line 3
+[30-Sep-2023 16:47:06 UTC] PHP Parse error:  Unmatched ')' in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\index.php on line 3
+[30-Sep-2023 16:58:05 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:58:05 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:58:17 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 16:58:17 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\functions.php on line 4
+[30-Sep-2023 20:13:18 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\page.php on line 6
+[30-Sep-2023 20:15:00 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\page.php on line 6
+[30-Sep-2023 20:15:05 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\page.php on line 6
+[30-Sep-2023 20:53:09 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "><strong>Fictional</strong> Un...", expecting "," or ";" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\header.php on line 22
+[30-Sep-2023 20:55:06 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "><strong>Fictional</strong> Un...", expecting "," or ";" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\header.php on line 22
+[06-Oct-2023 21:17:41 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\index.php on line 19
+[06-Oct-2023 21:18:04 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "the_post" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\index.php:17
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#2 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#3 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\index.php on line 17
+[06-Oct-2023 21:18:04 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "the_post" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\index.php:17
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#2 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#3 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\index.php on line 17
+[06-Oct-2023 21:18:04 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "the_post" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\index.php:17
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#2 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#3 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\my_theme\index.php on line 17
+[21-Oct-2023 20:21:29 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in C:\Users\micha\Local Sites\camerata1\app\public\wp-admin\includes\class-theme-upgrader.php on line 160
+[28-Oct-2023 21:51:10 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 9
+[02-Nov-2023 15:35:20 UTC] PHP Parse error:  syntax error, unexpected identifier "is_front_page", expecting "(" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\sidebars\sidebar-right.php on line 17
+[02-Nov-2023 15:35:25 UTC] PHP Parse error:  syntax error, unexpected identifier "is_front_page", expecting "(" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\sidebars\sidebar-right.php on line 17
+[02-Nov-2023 15:36:22 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\sidebars\sidebar-right.php on line 19
+[02-Nov-2023 15:36:25 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\sidebars\sidebar-right.php on line 19
+[02-Nov-2023 15:36:46 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\sidebars\sidebar-right.php on line 19
+[02-Nov-2023 20:19:59 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\front-page.php on line 25
+[02-Nov-2023 20:20:45 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "is_front_page" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\front-page.php:24
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#2 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#3 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\front-page.php on line 24
+[03-Nov-2023 10:45:16 UTC] PHP Parse error:  Unclosed '{' on line 5 in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 50
+[03-Nov-2023 10:45:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "the_title" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php:34
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#2 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#3 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 34
+[03-Nov-2023 15:01:35 UTC] PHP Parse error:  syntax error, unexpected token "=" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 11
+[03-Nov-2023 15:02:24 UTC] PHP Parse error:  syntax error, unexpected token "while" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 10
+[03-Nov-2023 15:02:42 UTC] PHP Parse error:  syntax error, unexpected token "++" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 23
+[03-Nov-2023 15:14:02 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 26
+[03-Nov-2023 15:16:17 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 10
+[03-Nov-2023 23:04:16 UTC] PHP Parse error:  syntax error, unexpected token "else", expecting end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 40
+[03-Nov-2023 23:10:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "the_title" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php:33
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#2 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#3 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:23:15 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:23:33 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:24:21 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 34
+[03-Nov-2023 23:24:22 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 34
+[03-Nov-2023 23:25:41 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:25:42 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:25:42 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:25:43 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:26:35 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:26:36 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:26:36 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:27:18 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:27:19 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:27:19 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:27:19 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:27:20 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:27:20 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:27:20 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:27:20 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:27:20 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:27:21 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:27:21 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 33
+[03-Nov-2023 23:28:09 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 34
+[04-Nov-2023 19:45:59 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\main-navigation.php on line 51
+[04-Nov-2023 19:46:16 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\main-navigation.php on line 51
+[04-Nov-2023 19:46:17 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\main-navigation.php on line 51
+[04-Nov-2023 20:01:31 UTC] PHP Parse error:  syntax error, unexpected token "else", expecting end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 56
+[04-Nov-2023 20:02:18 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 56
+[04-Nov-2023 20:02:19 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 56
+[04-Nov-2023 20:02:20 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 56
+[04-Nov-2023 22:27:03 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 7
+[04-Nov-2023 22:27:03 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 7
+[04-Nov-2023 22:36:39 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 14
+[04-Nov-2023 22:36:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[04-Nov-2023 22:36:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[04-Nov-2023 22:36:39 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 14
+[04-Nov-2023 22:36:40 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 14
+[04-Nov-2023 22:48:38 UTC] PHP Parse error:  syntax error, unexpected identifier "get_site_url", expecting ":" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 22:48:38 UTC] PHP Parse error:  syntax error, unexpected identifier "get_site_url", expecting ":" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 22:49:14 UTC] PHP Parse error:  syntax error, unexpected identifier "get_site_url", expecting ":" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 22:49:15 UTC] PHP Parse error:  syntax error, unexpected identifier "get_site_url", expecting ":" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 22:50:38 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ")", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 22:50:38 UTC] PHP Parse error:  syntax error, unexpected single-quoted string ")", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:07:43 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "name", expecting identifier or variable or "{" or "$" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:08:11 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "name", expecting identifier or variable or "{" or "$" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:08:11 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "name", expecting identifier or variable or "{" or "$" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:11:36 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "name", expecting identifier or variable or "{" or "$" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:11:36 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "name", expecting identifier or variable or "{" or "$" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:13:15 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:13:15 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:14:12 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:14:12 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:18:37 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:18:37 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:19:51 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:19:51 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:20:40 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:20:40 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:21:25 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "name", expecting identifier or variable or "{" or "$" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:21:25 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "name", expecting identifier or variable or "{" or "$" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:22:47 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:22:47 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:23:33 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:23:33 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:25:59 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:25:59 UTC] PHP Warning:  Attempt to read property "name" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:30:10 UTC] PHP Warning:  Attempt to read property "Username" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:30:10 UTC] PHP Warning:  Attempt to read property "Username" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:32:00 UTC] PHP Warning:  Attempt to read property "Username" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:32:00 UTC] PHP Warning:  Attempt to read property "Username" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:41:01 UTC] PHP Warning:  Attempt to read property "roles" on string in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:41:01 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php:9
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-hook.php(312): user_redirect('michaladamus')
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\user.php(121): do_action('wp_login', 'michaladamus', Object(WP_User))
+#4 C:\Users\micha\Local Sites\camerata1\app\public\wp-login.php(1241): wp_signon(Array, false)
+#5 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 9
+[04-Nov-2023 23:46:34 UTC] PHP Parse error:  syntax error, unexpected identifier "get_site_url", expecting ":" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 10
+[04-Nov-2023 23:46:34 UTC] PHP Parse error:  syntax error, unexpected identifier "get_site_url", expecting ":" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 10
+[04-Nov-2023 23:46:52 UTC] PHP Parse error:  syntax error, unexpected identifier "get_site_url", expecting ":" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 10
+[04-Nov-2023 23:52:28 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 12
+[04-Nov-2023 23:52:28 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 12
+[04-Nov-2023 23:52:33 UTC] PHP Parse error:  syntax error, unexpected token "else" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 12
+[06-Nov-2023 20:11:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ashe_preview_right_sidebar() in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\sidebars\sidebar-right.php:25
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(787): require()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(720): load_template('C:\\Users\\micha\\...', false, Array)
+#2 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\front-page.php(36): get_template_part('templates/sideb...', 'right')
+#4 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\micha\\...')
+#5 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#6 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#7 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\sidebars\sidebar-right.php on line 25
+[06-Nov-2023 20:12:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ashe_preview_right_sidebar() in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\sidebars\sidebar-right.php:25
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(787): require()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(720): load_template('C:\\Users\\micha\\...', false, Array)
+#2 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\front-page.php(36): get_template_part('templates/sideb...', 'right')
+#4 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\micha\\...')
+#5 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#6 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#7 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\sidebars\sidebar-right.php on line 25
+[06-Nov-2023 21:05:03 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\front-page.php on line 6
+[06-Nov-2023 22:40:30 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\front-page.php on line 34
+[07-Nov-2023 23:01:24 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "add_new_item", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\mu-plugins\events.php on line 7
+[07-Nov-2023 23:03:25 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "add_new_item", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\mu-plugins\events.php on line 7
+[07-Nov-2023 23:05:26 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "add_new_item", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\mu-plugins\events.php on line 7
+[07-Nov-2023 23:07:27 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "add_new_item", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\mu-plugins\events.php on line 7
+[07-Nov-2023 23:09:28 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "add_new_item", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\mu-plugins\events.php on line 7
+[07-Nov-2023 23:11:29 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "add_new_item", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\mu-plugins\events.php on line 7
+[07-Nov-2023 23:24:29 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "add_new_item", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\mu-plugins\events.php on line 7
+[07-Nov-2023 23:24:30 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "add_new_item", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\mu-plugins\events.php on line 7
+[07-Nov-2023 23:24:31 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "add_new_item", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\mu-plugins\events.php on line 7
+[07-Nov-2023 23:25:37 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 84
+[07-Nov-2023 23:30:33 UTC] PHP Warning:  Undefined variable $n in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 39
+[07-Nov-2023 23:30:33 UTC] PHP Warning:  Undefined variable $n in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 52
+[07-Nov-2023 23:35:04 UTC] PHP Warning:  Undefined variable $n in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 39
+[07-Nov-2023 23:35:04 UTC] PHP Warning:  Undefined variable $n in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 52
+[07-Nov-2023 23:35:56 UTC] PHP Parse error:  syntax error, unexpected token "=" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 37
+[08-Nov-2023 00:00:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "k" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php:30
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#2 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#3 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 30
+[08-Nov-2023 00:06:12 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 80
+[08-Nov-2023 00:06:47 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 80
+[08-Nov-2023 00:06:48 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 80
+[08-Nov-2023 00:07:18 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 80
+[08-Nov-2023 00:07:19 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 80
+[08-Nov-2023 00:08:18 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 79
+[08-Nov-2023 00:08:19 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 79
+[08-Nov-2023 00:19:44 UTC] PHP Warning:  Undefined array key 1 in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-query.php on line 3643
+[08-Nov-2023 00:20:07 UTC] PHP Warning:  Undefined array key 1 in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-query.php on line 3643
+[08-Nov-2023 00:20:08 UTC] PHP Warning:  Undefined array key 1 in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-query.php on line 3643
+[08-Nov-2023 00:20:32 UTC] PHP Parse error:  Unmatched '}' in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 63
+[08-Nov-2023 00:20:33 UTC] PHP Parse error:  Unmatched '}' in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 63
+[08-Nov-2023 00:49:37 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\page-header.php on line 32
+[08-Nov-2023 01:04:02 UTC] PHP Warning:  Undefined array key 1 in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-query.php on line 3643
+[08-Nov-2023 01:05:19 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "the_post" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php:23
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#2 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#3 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 23
+[08-Nov-2023 01:05:37 UTC] PHP Warning:  Undefined array key 1 in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-query.php on line 3643
+[08-Nov-2023 01:06:51 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "the_post" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php:23
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#2 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#3 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 23
+[08-Nov-2023 01:07:01 UTC] PHP Warning:  Undefined array key 1 in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-query.php on line 3643
+[09-Nov-2023 16:54:52 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 55
+[09-Nov-2023 17:25:18 UTC] PHP Parse error:  syntax error, unexpected token "else", expecting end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 71
+[09-Nov-2023 17:25:19 UTC] PHP Parse error:  syntax error, unexpected token "else", expecting end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 71
+[09-Nov-2023 17:25:20 UTC] PHP Parse error:  syntax error, unexpected token "else", expecting end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 71
+[10-Nov-2023 15:10:30 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "public", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\mu-plugins\events.php on line 5
+[10-Nov-2023 15:10:30 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "public", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\mu-plugins\events.php on line 5
+[10-Nov-2023 15:42:08 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\page.php on line 65
+[11-Nov-2023 18:24:58 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "elseif" or "else" or "endif" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\main-navigation.php on line 60
+[11-Nov-2023 18:25:16 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "is_user_logged_in" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\main-navigation.php:51
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(792): require()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(725): load_template('C:\\Users\\micha\\...', false, Array)
+#2 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\header.php(31): get_template_part('templates/heade...', 'navigation')
+#4 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(790): require_once('C:\\Users\\micha\\...')
+#5 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(725): load_template('C:\\Users\\micha\\...', true, Array)
+#6 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\front-page.php(3): get_header()
+#8 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\micha\\...')
+#9 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#10 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#11 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\main-navigation.php on line 51
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1122
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1123
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1124
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1125
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1126
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1127
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1130
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1131
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1134
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1135
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1136
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1137
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1140
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1141
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1142
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1143
+[11-Nov-2023 20:25:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1146
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1122
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1123
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1124
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1125
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1126
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1127
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1130
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1131
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1134
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1135
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1136
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1137
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1140
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1141
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1142
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1143
+[11-Nov-2023 20:26:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1146
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1122
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1123
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1124
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1125
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1126
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1127
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1130
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1131
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1134
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1135
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1136
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1137
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1140
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1141
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1142
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1143
+[13-Nov-2023 13:15:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1146
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1122
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1123
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1124
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1125
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1126
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1127
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1130
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1131
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1134
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1135
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1136
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1137
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1140
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1141
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1142
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1143
+[13-Nov-2023 13:19:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1146
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1122
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1123
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1124
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1125
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1126
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1127
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1130
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1131
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1134
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1135
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1136
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1137
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1140
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1141
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1142
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1143
+[13-Nov-2023 13:21:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-styles.php:290) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\pluggable.php on line 1146
+[13-Nov-2023 22:10:53 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 249
+[13-Nov-2023 22:10:53 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 249
+[13-Nov-2023 22:11:15 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 249
+[13-Nov-2023 22:11:15 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 249
+[13-Nov-2023 22:11:16 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 249
+[13-Nov-2023 22:11:16 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 249
+[13-Nov-2023 22:11:16 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 249
+[13-Nov-2023 22:11:16 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 249
+[13-Nov-2023 22:19:41 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 256
+[13-Nov-2023 22:19:41 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 256
+[14-Nov-2023 15:57:48 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 8

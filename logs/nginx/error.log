@@ -1,0 +1,6 @@
+2023/09/30 19:03:39 [alert] 4420#10228: OpenEvent("ngx_master_9184") failed (2: The system cannot find the file specified)
+2023/10/31 14:09:56 [alert] 11676#13128: OpenEvent("ngx_master_18788") failed (2: The system cannot find the file specified)
+2023/11/06 20:16:27 [alert] 17996#22176: worker process 22232 exited with code C0000142
+2023/11/06 20:16:27 [alert] 17996#22176: could not respawn worker
+2023/11/11 01:48:38 [alert] 5020#11208: OpenEvent("ngx_master_9504") failed (2: The system cannot find the file specified)
+2023/11/17 15:12:21 [alert] 4452#14024: OpenEvent("ngx_master_6820") failed (2: The system cannot find the file specified)

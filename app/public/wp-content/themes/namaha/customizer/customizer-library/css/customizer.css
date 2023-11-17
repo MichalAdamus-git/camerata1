@@ -1,0 +1,131 @@
+
+.customize-control input[type=number].float,
+.customize-control input[type=number].pixels,
+.customize-control input[type=number].percentage,
+.customize-control input[type=number].seconds,
+.customize-control input[type=number].milliseconds {
+	width: 65px;
+}
+
+.customize-control-warning,
+.customize-control-warning a {
+	color: #FF0000;
+	font-weight: 400;
+}
+
+.customize-control select.em {
+	width: 70px;
+}
+
+.customize-control.hidden {
+	display: none !important;
+}
+
+#customize-theme-controls #accordion-section-colors {
+	display: none !important;
+}
+
+/* Accordion section rollover */
+#customize-theme-controls #accordion-panel-namaha-colors h3:hover,
+	#customize-theme-controls #accordion-section-namaha-general-colors h3:hover,
+	#customize-theme-controls #accordion-section-namaha-site-logo-area-colors h3:hover,
+	#customize-theme-controls #accordion-section-namaha-navigation-menu-colors h3:hover,
+	#customize-theme-controls #accordion-section-namaha-site-intro-colors h3:hover,
+	#customize-theme-controls #accordion-section-namaha-page-content-colors h3:hover,
+	#customize-theme-controls #accordion-section-namaha-footer-colors h3:hover,
+
+#customize-theme-controls #accordion-panel-namaha-styling h3:hover,
+	#customize-theme-controls #accordion-section-namaha-styling-paragraph h3:hover,
+	#customize-theme-controls #accordion-section-namaha-styling-links h3:hover,
+	#customize-theme-controls #accordion-section-namaha-styling-page-builders h3:hover,
+
+#customize-theme-controls #accordion-section-namaha-fonts h3:hover,
+#customize-theme-controls #accordion-section-namaha-font-awesome h3:hover,
+
+#customize-theme-controls #accordion-panel-namaha-header h3:hover,
+	#customize-theme-controls #accordion-section-namaha-header-site-logo-area h3:hover,
+	#customize-theme-controls #accordion-section-namaha-header-navigation-menu h3:hover,
+	#customize-theme-controls #accordion-section-namaha-header-text h3:hover,
+	#customize-theme-controls #accordion-section-namaha-header-opacity h3:hover,
+	#customize-theme-controls #accordion-section-namaha-header-site-intro h3:hover,
+
+#customize-theme-controls #accordion-section-namaha-social h3:hover,
+#customize-theme-controls #accordion-section-namaha-search h3:hover,
+#customize-theme-controls #accordion-section-namaha-slider h3:hover,
+#customize-theme-controls #accordion-section-namaha-blog h3:hover,
+#customize-theme-controls #accordion-section-namaha-404-page h3:hover,
+#customize-theme-controls #accordion-section-namaha-gutenberg h3:hover,
+#customize-theme-controls #accordion-section-namaha-media h3:hover {
+    background-color: #8D9C71;
+	color: #FFFFFF;
+}
+
+/* Accordion arrow icon rollover */
+#customize-theme-controls #accordion-panel-namaha-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-general-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-site-logo-area-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-navigation-menu-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-header-image-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-site-intro-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-page-content-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-footer-colors:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-panel-namaha-styling:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-styling-paragraph:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-styling-links:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-styling-page-builders:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-section-namaha-fonts:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-namaha-font-awesome:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-panel-namaha-header:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-header-site-logo-area:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-header-navigation-menu:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-header-text:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-header-opacity:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-namaha-header-site-intro:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-section-namaha-social:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-namaha-search:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-namaha-slider:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-namaha-blog:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-namaha-404-page:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-namaha-gutenberg:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-namaha-media:hover>.accordion-section-title:after {
+	color: #FFFFFF !important;
+}
+
+/* Expanded Section heading colors */
+#sub-accordion-panel-namaha-colors.control-section .panel-meta .accordion-section-title,
+	#sub-accordion-section-namaha-general-colors.control-section.open h3,
+	#sub-accordion-section-namaha-site-logo-area-colors.control-section.open h3,
+	#sub-accordion-section-namaha-navigation-menu-colors.control-section.open h3,
+	#sub-accordion-section-namaha-site-intro-colors.control-section.open h3,
+	#sub-accordion-section-namaha-page-content-colors.control-section.open h3,
+	#sub-accordion-section-namaha-footer-colors.control-section.open h3,
+
+#sub-accordion-section-namaha-fonts.control-section.open h3,
+#sub-accordion-section-namaha-font-awesome.control-section.open h3,
+
+#sub-accordion-panel-namaha-styling.control-section div.accordion-section-title,
+	#sub-accordion-section-namaha-styling-paragraph.control-section.open h3,
+	#sub-accordion-section-namaha-styling-links.control-section.open h3,
+	#sub-accordion-section-namaha-styling-page-builders.control-section.open h3,
+
+#sub-accordion-panel-namaha-header.control-section div.accordion-section-title,
+	#sub-accordion-section-namaha-header-site-logo-area.control-section.open h3,
+	#sub-accordion-section-namaha-header-navigation-menu.control-section.open h3,
+	#sub-accordion-section-namaha-header-text.control-section.open h3,
+	#sub-accordion-section-namaha-header-opacity.control-section.open h3,
+	#sub-accordion-section-namaha-header-site-intro.control-section.open h3,
+
+#sub-accordion-section-namaha-social.control-section.open h3,
+#sub-accordion-section-namaha-search.control-section.open h3,
+#sub-accordion-section-namaha-slider.control-section.open h3,
+#sub-accordion-section-namaha-blog.control-section.open h3,
+#sub-accordion-section-namaha-404-page.control-section.open h3,
+#sub-accordion-section-namaha-gutenberg.control-section.open h3,
+#sub-accordion-section-namaha-media.control-section.open h3 {
+    background-color: #8D9C71 !important;
+	color: #FFFFFF !important;
+}

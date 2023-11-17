@@ -1,0 +1,1530 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+	overflow-x: hidden;
+	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+	box-sizing: border-box; /* Apply a natural box layout model to the document; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+}
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+/* Eliminates the flicker caused in the Top Bar elements when the transform animations are applied to the slider control buttons */ 
+body {
+	-webkit-backface-visibility: hidden;
+	margin: 10px !important;
+}
+
+body.show-main-menu #main-menu {
+    right: 0px;
+}
+
+*:focus {
+	outline: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+table { /* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	quotes: "" "";
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+a img {
+	border: 0;
+}
+
+/*--------------------------------------------------------------
+2.0 Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+    font-size: 14px;
+	font-weight: 300;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+}
+
+p {
+    margin-bottom: 1.1em;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+    font-style: italic;
+}
+
+blockquote:before {
+	content: "\201C";
+	font-size: 110px;
+	line-height: 0.96;
+	top: 0;
+	left: 0;
+	font-family: "Lora";
+	font-style: italic;
+	position: absolute;
+}
+
+blockquote {
+	min-height: 40px;
+	content: "\201C";
+	margin: 0 0 0.6em 0;
+	padding: 0 0 0 2.4em;
+	font-size: 21px;
+	font-style: italic;
+	position: relative;
+}
+
+address {
+    margin: 0 0 1.1em;
+}
+
+pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 14px;
+    font-size: 1.5rem;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+    font: 14px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr,
+acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+}
+
+mark,
+ins {
+    background: #fff9c0;
+    text-decoration: none;
+}
+
+sup,
+sub {
+    font-size: 75%;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    bottom: 1ex;
+}
+
+sub {
+    top: .5ex;
+}
+
+small {
+    font-size: 75%;
+}
+
+big {
+    font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+3.0 Elements
+--------------------------------------------------------------*/
+hr {
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em;
+}
+
+ul,
+ol {
+    margin: 0 0 1.5em 3em;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li > ul,
+li > ol {
+    margin-bottom: 0;
+    margin-left: 1.5em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 1.5em 1.5em;
+}
+
+img {
+    height: auto; /* Make sure images are scaled correctly. */
+    max-width: 100%; /* Adhere to container width. */
+}
+
+figure {
+    margin: 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+
+th {
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight: 300;
+    line-height: 1.1em;
+    word-wrap: normal;
+    margin-top: 0;
+}
+
+h1,
+body.home.namaha-one-page-mode h2.section-title,
+.namaha-page-builders-use-theme-styles .elementor-widget-heading h1.elementor-heading-title {
+    font-size: 39px;
+}
+
+h1,
+body.home.namaha-one-page-mode h2.section-title {
+    margin-bottom: .8em;
+}
+
+body.home.namaha-one-page-mode h2.section-title {
+    margin-bottom: 1.2em;
+}
+
+body.home.namaha-one-page-mode h2.section-title.centered {
+	text-align: center;
+}
+
+h2,
+.namaha-page-builders-use-theme-styles .elementor-widget-heading h2.elementor-heading-title {
+    font-size: 36px;
+}
+
+h2 {
+    margin-bottom: .55em;
+}
+
+h3,
+html #jp-relatedposts h3.jp-relatedposts-headline,
+.namaha-page-builders-use-theme-styles .elementor-widget-heading h3.elementor-heading-title {
+    font-size: 32px;
+}
+
+h3 {
+    margin-bottom: .8em;
+}
+
+h4,
+.namaha-page-builders-use-theme-styles .elementor-widget-heading h4.elementor-heading-title {
+    font-size: 28px;
+}
+
+h4 {
+    margin-bottom: 1.1em;
+}
+
+h5,
+.namaha-page-builders-use-theme-styles .elementor-widget-heading h5.elementor-heading-title {
+    font-size: 24px;
+}
+
+h5 {
+    margin-bottom: 1.3em;
+}
+
+h6,
+.namaha-page-builders-use-theme-styles .elementor-widget-heading h6.elementor-heading-title {
+    font-size: 20px;
+}
+
+h6 {
+    margin-bottom: 1.4em;
+}
+
+.entry-content code {
+    display: block;
+    background: #f7f7f7;
+    border: 1px solid #D8D8D8;
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.09);
+    margin: 5px 0;
+    overflow-x: auto;
+}
+
+/*--------------------------------------------------------------
+4.0 Forms
+--------------------------------------------------------------*/
+button,
+input,
+select,
+textarea {
+	font-size: 100%; /* Corrects font size not being inherited in all browsers */
+	margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+	vertical-align: baseline; /* Improves appearance and consistency in all browsers */
+}
+
+a.button,
+.widget-area .widget a.button,
+.widget_sow-button .ow-button-base a,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: none;	
+	color: #FFF;
+	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 1;
+	padding: 13px 29px;
+	min-width: 120px;
+	max-width: 100%;
+	
+    -webkit-transition: background-color 0.2s ease 0s, background-color 0.2s ease 0s;
+     -moz-transition: background-color 0.2s ease 0s, background-color 0.2s ease 0s;
+      -ms-transition: background-color 0.2s ease 0s, background-color 0.2s ease 0s;
+       -o-transition: background-color 0.2s ease 0s, background-color 0.2s ease 0s;
+          transition: background-color 0.2s ease 0s, background-color 0.2s ease 0s;
+}
+
+a.button,
+.widget_sow-button .ow-button-base a {
+	display: inline-block;
+	-webkit-appearance: none;
+}
+a.button:hover,
+.widget-area .widget a.button:hover,
+.widget_sow-button .ow-button-base a:hover {
+	color: #FFFFFF;
+}
+
+.slider-container.default .slider .slide .overlay .opacity a.button,
+.slider-container.default .slider .slide .overlay .opacity button,
+.slider-container.default .slider .slide .overlay .opacity input[type="button"],
+.header-image .overlay-container .overlay .opacity a.button,
+.header-image .overlay-container .overlay .opacity button,
+.header-image .overlay-container .overlay .opacity input[type="button"] {
+	border: none;	
+	color: #FFF;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 20px 36px;
+	text-shadow: none;
+	text-align: center;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	padding: 0; /* Addresses excess padding in IE8/9 */
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield; /* Addresses appearance set to searchfield in S5, Chrome */
+	box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration { /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+	-webkit-appearance: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	border: 1px solid #cacfd0;
+}
+
+/* Remove the autofill yellow background */
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+	-webkit-box-shadow: inset 0 0 0px 9999px #FFFFFF;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="tel"],
+input[type="password"],
+input[type="search"] {
+	max-width: 100%;
+	padding: 3px 3px 3px 10px;
+	height: 41px;
+	width: 311px;
+}
+
+.site-footer input[type="text"],
+.site-footer input[type="email"],
+.site-footer input[type="url"],
+.site-footer input[type="password"],
+.site-footer input[type="search"] {
+	width: 100%;
+	max-width: 275px;
+}
+
+textarea {
+	overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
+	padding: 10px 3px 3px 10px;
+	vertical-align: top; /* Improves readability and alignment in all browsers */
+	max-width: 100%;
+	width: 500px;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.1em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.1em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Media Player */
+
+.mejs-button>button {
+	min-width: auto;
+}
+
+/*--------------------------------------------------------------
+Fallback CSS for Customizer Library Styles
+--------------------------------------------------------------*/
+
+/* Background Color */
+body,
+.content-container,
+.site-content .rpwe-block li {
+	background: #FFFFFF; /* Fallback for when there is no custom background color defined. */
+}
+
+/* Page Content Background Color */
+.boxed,
+.boxed .content-container,
+.boxed .site-content {
+	background-color: #FFFFFF;
+}
+
+/* Top Bar Color */
+.site-top-bar,
+.site-header .site-top-bar .site-container,
+.site-header .site-top-bar-left,
+.site-header .site-top-bar-right {
+	background-color: #8D9C71;
+}
+
+/* Top Bar Font Color */
+.site-top-bar,
+.site-top-bar a,
+.site-top-bar .otb-fa {
+	color: #FFFFFF;
+}
+
+/* Top Bar Rollover Font Color */
+.site-top-bar a:hover,
+.site-top-bar a:hover .otb-fa {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+/* Header - Top Border */
+
+.main-navigation.border-top,
+.main-navigation .main-menu-container.border-top,
+.main-navigation.translucent-border-top,
+.main-navigation .main-menu-container.translucent-border-top,
+.main-navigation .main-menu-container.transparent-border-top,
+.site-header .site-logo-area.border-top,
+
+.main-navigation.border-top,
+.main-navigation.translucent-border-top,
+.main-navigation .main-menu-container.border-top,
+.main-navigation:not(.floated) .main-menu-container.transparent-border-top,
+.main-navigation:not(.floated) .main-navigation-inner.transparent-border-top,
+.main-navigation:not(.floated) .main-navigation-inner.border-top,
+.site-header.floated .main-navigation.inline .main-navigation-inner.border-top {
+	box-shadow: 0px -1px 0px 0px #cacfd0;
+}
+
+/* Header - Bottom Border */
+
+.main-navigation.border-bottom,
+.main-navigation .main-menu-container.border-bottom,
+.main-navigation.translucent-border-bottom:not(.floated),
+.main-navigation:not(.floated) .main-menu-container.translucent-border-bottom,
+.main-navigation:not(.floated).transparent .main-navigation-inner.transparent-border-bottom,
+.site-header .site-logo-area.border-bottom,
+
+.main-navigation.border-bottom,
+.main-navigation.translucent-border-bottom,
+.main-navigation:not(.floated) .main-menu-container.transparent-border-bottom,
+.main-navigation .main-menu-container.border-bottom,
+.main-navigation:not(.floated).translucent .main-navigation-inner.translucent-border-bottom,
+.main-navigation:not(.floated).transparent .main-navigation-inner.transparent-border-bottom,
+.main-navigation:not(.floated) .main-navigation-inner.transparent-border-bottom,
+.main-navigation:not(.floated) .main-navigation-inner.border-bottom,
+.site-header.floated .main-navigation.inline .main-navigation-inner.border-bottom {
+	border-bottom-color: #cacfd0;
+}
+
+.main-navigation.border-bottom ul ul,
+.main-navigation-inner.border-bottom ul ul,
+.search-block .search-field,
+.search-block .search-field:focus {
+	border-color: #cacfd0;
+}
+
+.site-header.inline-navigation-menu .site-logo-area.border-bottom {
+	border-bottom-color: #cacfd0;
+}
+
+/* Navigation Menu - Translucent Border Bottom Color */
+
+.main-navigation.translucent-border-bottom:not(.floated),
+.main-navigation:not(.floated).translucent .main-menu-container.translucent-border-bottom,
+.main-navigation:not(.floated).translucent .main-navigation-inner.translucent-border-bottom,
+.site-header:not(.floated) .main-navigation.inline .main-navigation-inner.translucent-border-bottom {
+	border-bottom-color: #FFFFFF;
+}
+
+.main-navigation.translucent-border-bottom:not(.floated) ul ul,
+.main-navigation:not(.floated).translucent .main-menu-container.translucent-border-bottom ul ul,
+.main-navigation:not(.floated).translucent.translucent-border-bottom ul ul,
+.main-navigation:not(.floated).translucent .main-navigation-inner.translucent-border-bottom ul ul,
+.main-navigation.translucent.has-translucent-border-bottom .search-block .search-field,
+.main-navigation.translucent.has-translucent-border-bottom .search-block .search-field:focus,
+.site-header.translucent .main-navigation.has-translucent-border-bottom .search-block .search-field,
+.site-header.translucent .main-navigation.has-translucent-border-bottom .search-block .search-field:focus {
+	border-color: #FFFFFF;	
+}
+
+/* Site Logo Area */
+
+.site-header .site-logo-area,
+.site-header .site-logo-area.sticky.stuck {
+	background-color: #FFFFFF;
+	
+    -webkit-transition: background-color 0.2s ease 0s;
+     -moz-transition: background-color 0.2s ease 0s;
+      -ms-transition: background-color 0.2s ease 0s;
+       -o-transition: background-color 0.2s ease 0s;
+          transition: background-color 0.2s ease 0s;
+}
+
+.site-header.translucent .site-logo-area,
+.site-header.translucent .site-logo-area.sticky.stuck {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Site Identity Contained */
+
+.site-header .branding.contained {
+	background: #8D9C71;
+	background: #FFFFFF;
+}
+
+/* Primary Color */
+.content-area .bbp-search-form .search-submit .otb-fa,
+.search-button .otb-fa-search,
+.search-button .otb-fa-search:hover,
+.widget_mc4wp_form_widget .mc4wp-submit .otb-fa,
+.widget_search .search-submit .otb-fa,
+.widget_product_search .search-submit .otb-fa,
+.info-text em,
+.site-header .site-header-right a:hover,
+.site-header.translucent .site-header-right a:hover,
+.site-header.translucent .header-cart .dropdown a:hover,
+
+.main-navigation ul ul a:hover,
+.main-navigation ul ul li.current-menu-item > a,
+.main-navigation ul ul li.current_page_item > a,
+.main-navigation ul ul li.current-menu-parent > a,
+.main-navigation ul ul li.current_page_parent > a,
+.main-navigation ul ul li.current-menu-ancestor > a,
+.main-navigation ul ul li.current_page_ancestor > a,
+.main-navigation .search-button.no-indicator .otb-fa-search:hover,
+
+.site-header .site-container .main-navigation ul ul a:hover,
+.site-header .site-container .main-navigation ul ul li.current-menu-item > a,
+.site-header .site-container .main-navigation ul ul li.current_page_item > a,
+.site-header .site-container .main-navigation ul ul li.current-menu-parent > a,
+.site-header .site-container .main-navigation ul ul li.current_page_parent > a,
+.site-header .site-container .main-navigation ul ul li.current-menu-ancestor > a,
+.site-header .site-container .main-navigation ul ul li.current_page_ancestor > a,
+.site-header .site-container .main-navigation .search-button.no-indicator .otb-fa-search:hover,
+
+.main-navigation.translucent ul ul a:hover,
+.main-navigation.translucent ul ul li.current-menu-item > a,
+.main-navigation.translucent ul ul li.current_page_item > a,
+.main-navigation.translucent ul ul li.current-menu-parent > a,
+.main-navigation.translucent ul ul li.current_page_parent > a,
+.main-navigation.translucent ul ul li.current-menu-ancestor > a,
+.main-navigation.translucent ul ul li.current_page_ancestor > a,
+.main-navigation.translucent .search-button.no-indicator .otb-fa-search:hover,
+
+.site-header.translucent .site-container .main-navigation ul ul a:hover,
+.site-header.translucent .site-container .main-navigation ul ul li.current-menu-item > a,
+.site-header.translucent .site-container .main-navigation ul ul li.current_page_item > a,
+.site-header.translucent .site-container .main-navigation ul ul li.current-menu-parent > a,
+.site-header.translucent .site-container .main-navigation ul ul li.current_page_parent > a,
+.site-header.translucent .site-container .main-navigation ul ul li.current-menu-ancestor > a,
+.site-header.translucent .site-container .main-navigation ul ul li.current_page_ancestor > a,
+.site-header.translucent .site-container .main-navigation .search-button.no-indicator .otb-fa-search:hover,
+
+.woocommerce .woocommerce-breadcrumb a,
+.woocommerce-page .woocommerce-breadcrumb a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+blockquote,
+.color-text,
+.namaha-page-builders-use-theme-styles .testimonials .sow-slider-base ul.sow-slider-images .sow-slider-image-wrapper p,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon .elementor-icon,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon.elementor-view-default .elementor-icon,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon.elementor-view-framed .elementor-icon,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box.elementor-view-default .elementor-icon,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box.elementor-view-framed .elementor-icon {
+	color: #8D9C71;
+}
+
+/*.namaha-page-builders-use-theme-styles .sow-icon-fontawesome,*/
+.site-header.forced-solid .main-navigation .search-button .otb-fa-search,
+.site-header.forced-solid .main-navigation .search-button .otb-fa-search:hover {
+	color: #8D9C71 !important;
+}
+
+div.wpforms-container form.wpforms-form input[type="text"]:focus,
+div.wpforms-container form.wpforms-form input[type="email"]:focus,
+div.wpforms-container form.wpforms-form input[type="tel"]:focus,
+div.wpforms-container form.wpforms-form input[type="number"]:focus,
+div.wpforms-container form.wpforms-form input[type="url"]:focus,
+div.wpforms-container form.wpforms-form input[type="password"]:focus,
+div.wpforms-container form.wpforms-form input[type="search"]:focus,
+div.wpforms-container form.wpforms-form select:focus,
+div.wpforms-container form.wpforms-form textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[name="coupon_code"]:focus,
+select:focus,
+textarea:focus,
+.site-content .rpwe-block li,
+.hentry,
+.paging-navigation,
+.bbp-search-container.focused *,
+.widget-area .widget_mc4wp_form_widget.focused *,
+.widget-area .widget_search.focused *,
+.widget-area .widget_product_search.focused *,
+.widget-area .widget,
+.site-footer-widgets .widget_mc4wp_form_widget.focused *,
+.site-footer-widgets .widget_search.focused *,
+.site-footer-widgets .widget_product_search.focused *,
+.search-results article,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon.elementor-view-framed .elementor-icon,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box.elementor-view-framed .elementor-icon {
+	border-color: #8D9C71;
+}
+
+#back-to-top,
+#comments .form-submit #submit,
+.no-results-btn,
+button,
+a.button,
+.widget-area .widget a.button,
+.namaha-page-builders-use-theme-styles .widget_sow-button .ow-button-base a,
+.namaha-page-builders-use-theme-styles .elementor-widget-button .elementor-button,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon.elementor-view-stacked .elementor-icon,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+hr,
+body.home.namaha-one-page-mode ul.sections > li hr.divider,
+p.woocommerce-store-notice.demo_store,
+.main-navigation li:hover .indicator,
+.main-navigation li.current_page_item .indicator,
+.main-navigation li.current-menu-item .indicator,
+.main-navigation li.current-menu-parent .indicator,
+.main-navigation li.current-menu-ancestor .indicator,
+.main-navigation li.current_page_parent .indicator,
+.main-navigation .search-button:hover .indicator,
+.side-aligned-social-links .social-links li,
+.site-footer-social-links .social-links,
+.woocommerce ul.products li.product a.add_to_cart_button,
+.woocommerce-page ul.products li.product a.add_to_cart_button,
+.woocommerce ul.products li.product a.button.product_type_simple,
+.woocommerce-page ul.products li.product a.button.product_type_simple,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce button.button:disabled:hover,
+.woocommerce button.button:disabled[disabled]:hover,
+.woocommerce button.button.alt:disabled,
+.woocommerce button.button.alt:disabled[disabled],
+.woocommerce button.button.alt:disabled,
+.woocommerce button.button.alt:disabled:hover,
+.woocommerce button.button.alt:disabled[disabled],
+.woocommerce button.button.alt:disabled[disabled]:hover,
+.woocommerce button.button,
+.woocommerce button.button.alt,
+.woocommerce button.button.alt.disabled,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce button.button,
+.woocommerce button.button.alt,
+.woocommerce a.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce-page #content input.button.alt,
+.woocommerce .cart-collaterals .shipping_calculator .button,
+.woocommerce-page .cart-collaterals .shipping_calculator .button,
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce input.button,
+.woocommerce-page #content input.button,
+.woocommerce-page input.button,
+.woocommerce #review_form #respond .form-submit input,
+.woocommerce-page #review_form #respond .form-submit input,
+.wpcf7-submit,
+div.wpforms-container form.wpforms-form input[type=submit],
+div.wpforms-container form.wpforms-form button[type=submit],
+div.wpforms-container form.wpforms-form .wpforms-page-button,
+html #infinite-handle span button,
+.site-footer-social-links .social-links li a,
+.site-footer-bottom-bar,
+.namaha-page-builders-use-theme-styles .testimonials .sow-slider-base .sow-slide-nav,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
+    background-color: #8D9C71;
+    -webkit-transition: background-color 0.2s ease 0s;
+     -moz-transition: background-color 0.2s ease 0s;
+      -ms-transition: background-color 0.2s ease 0s;
+       -o-transition: background-color 0.2s ease 0s;
+          transition: background-color 0.2s ease 0s;
+}
+
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message {
+	border-top-color: #8D9C71;
+}
+
+::-moz-selection{
+	background-color: #8D9C71;
+}
+::selection {
+	background-color: #8D9C71;
+}
+
+/* Secondary Color */
+.content-area .bbp-search-form .search-submit .otb-fa:hover,
+.widget_mc4wp_form_widget .mc4wp-submit .otb-fa:hover,
+.widget_search .search-submit .otb-fa:hover,
+.widget_product_search .search-submit .otb-fa:hover,
+.widget_namaha_social_media_links_widget .social-links li a:hover,
+.site-content .rpwe-block h3.rpwe-title a:hover,
+.woocommerce .woocommerce-breadcrumb a:hover,
+.woocommerce-page .woocommerce-breadcrumb a:hover,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active {
+    color: #6C7B5A;
+}
+
+#back-to-top .hover,
+.main-navigation button:hover,
+#comments .form-submit #submit:hover,
+.no-results-btn:hover,
+button:hover,
+a.button:hover,
+.widget-area .widget a.button:hover,
+.namaha-page-builders-use-theme-styles .widget_sow-button .ow-button-base a.ow-button-hover:hover,
+.namaha-page-builders-use-theme-styles .elementor-widget-button .elementor-button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+.side-aligned-social-links .social-links li:hover,
+.site-footer-social-links .social-links,
+.site-footer-widgets .site-container .widgets-container .divider,
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.woocommerce input.button.alt:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce .cart-collaterals .shipping_calculator .button,
+.woocommerce-page .cart-collaterals .shipping_calculator .button,
+.woocommerce a.button:hover,
+.woocommerce-page a.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-page #content input.button:hover,
+.woocommerce-page input.button:hover,
+.woocommerce ul.products li.product a.add_to_cart_button:hover,
+.woocommerce-page ul.products li.product a.add_to_cart_button:hover,
+.woocommerce ul.products li.product a.button.product_type_simple:hover,
+.woocommerce-page ul.products li.product a.button.product_type_simple:hover,
+.woocommerce button.button:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce #review_form #respond .form-submit input:hover,
+.woocommerce-page #review_form #respond .form-submit input:hover,
+.wpcf7-submit:hover,
+div.wpforms-container form.wpforms-form input[type=submit]:hover,
+div.wpforms-container form.wpforms-form button[type=submit]:hover,
+div.wpforms-container form.wpforms-form .wpforms-page-button:hover,
+html #infinite-handle span button:hover,
+.namaha-page-builders-use-theme-styles .testimonials .sow-slider-base .sow-slide-nav:hover {
+    background-color: #6C7B5A;
+}
+
+/* Link Color */
+a,
+#cancel-comment-reply-link,
+.site-content .rpwe-time,
+.site-content .rpwe-comment {
+	color: #939C99;
+}
+
+/* Link Rollover Color */
+a:hover,
+#cancel-comment-reply-link:hover,
+.widget-area .widget ul li a:hover,
+.site-footer-widgets .widget ul li a:hover,
+.woocommerce-MyAccount-navigation li.is-active a {
+	color: #8D9C71;
+}
+
+/* Mobile Menu Button Background Color */
+.site-header-right .header-menu-button {
+	background-color: #8D9C71;
+}
+
+/* Mobile Menu Button Color */
+.site-header-right .header-menu-button .otb-fa.otb-fa-bars {
+	color: #FFFFFF;
+}
+
+/* Footer Color */
+.site-footer {
+	background-color: #F5F5F5;
+}
+
+/* Site Title Font */
+.site-header .branding .title {
+	font-family: 'Philosopher', sans-serif;
+}
+.google-fonts-disabled .site-header .branding .title {
+	font-family: 'Arial';
+}
+
+/* Site Title Letter Spacing */
+.site-header .branding .title {
+	letter-spacing: 2px;
+}
+
+/* Site Title Solid Font Color */
+.site-header .branding .title {
+	color: #4D5351;
+}
+
+.site-header.forced-solid .branding .title {
+	color: #8D9C71 !important;
+}
+
+/* Site Title Translucent Font Color */
+.site-header.translucent .branding .title {
+	color: #4D5351;
+}
+
+/* Tagline Letter Spacing */
+.site-header .branding .description {
+	letter-spacing: 0px;
+}
+
+/* Tagline Solid Font Color */
+.site-header .branding .description {
+	color: #8D9C71;
+}
+
+.site-header.forced-solid .branding .description {
+	color: #8D9C71 !important;
+}
+
+/* Tagline Translucent Font Color */
+.site-header.translucent .branding .description {
+	color: #8D9C71;
+}
+
+/* Heading Font */
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.widget-area .widget h2,
+.site-footer-widgets ul li h2.widgettitle,
+.header-image .overlay .opacity h1,
+.header-image .overlay .opacity h2,
+.slider-container.default .slider .slide .overlay .opacity h1,
+.slider-container.default .slider .slide .overlay .opacity h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.google-fonts-disabled h1, .google-fonts-disabled h2, .google-fonts-disabled h3, .google-fonts-disabled h4, .google-fonts-disabled h5, .google-fonts-disabled h6,
+.google-fonts-disabled h1 a, .google-fonts-disabled h2 a, .google-fonts-disabled h3 a, .google-fonts-disabled h4 a, .google-fonts-disabled h5 a, .google-fonts-disabled h6 a,
+.google-fonts-disabled .widget-area .widget h2,
+.google-fonts-disabled .site-footer-widgets ul li h2.widgettitle,
+.google-fonts-disabled .header-image .overlay .opacity h1,
+.google-fonts-disabled .header-image .overlay .opacity h2,
+.google-fonts-disabled .slider-container.default .slider .slide .overlay .opacity h1,
+.google-fonts-disabled .slider-container.default .slider .slide .overlay .opacity h2 {
+	font-family: 'Arial';
+}
+
+/* Heading Font Weight */
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+html #jp-relatedposts h3.jp-relatedposts-headline em,
+.widget-area .widget h2,
+.site-footer-widgets ul li h2.widgettitle {
+	font-weight: 300;
+}
+
+/* Heading Font Letter Spacing */
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+.widget-area .widget h2,
+.site-footer-widgets ul li h2.widgettitle,
+.header-image .overlay .opacity h1,
+.header-image .overlay .opacity h2,
+.slider-container.default .slider .slide .overlay .opacity h1,
+.slider-container.default .slider .slide .overlay .opacity h2 {
+	letter-spacing: 0px;
+}
+
+/* Heading Font Color */
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a {
+    color: #8D9C71;
+}
+
+/* Body Font */
+body,
+input,
+select,
+textarea,
+.site-header .site-top-bar a,
+.site-header .site-header-right a,
+.site-header .site-header-right .main-navigation ul ul a,
+.main-navigation ul ul a,
+.widget-area .rpwe-block h3.rpwe-title a,
+.breadcrumbs,
+#cancel-comment-reply-link,
+.site-footer-widgets .widget a,
+.header-image .overlay .opacity,
+.slider-container.default .slider .slide .overlay-container .overlay .opacity,
+.woocommerce .woocommerce-ordering select,
+.woocommerce-page .woocommerce-ordering select,
+.namaha-page-builders-use-theme-styles .elementor-widget-text-editor,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description,
+.namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+html #jp-relatedposts h3.jp-relatedposts-headline {
+    font-family: 'Lato', sans-serif;
+}
+
+body.google-fonts-disabled ,
+.google-fonts-disabled input,
+.google-fonts-disabled select,
+.google-fonts-disabled textarea,
+.google-fonts-disabled .site-header .site-top-bar a,
+.google-fonts-disabled .site-header .site-header-right a,
+.google-fonts-disabled .site-header .site-header-right .main-navigation ul ul a,
+.google-fonts-disabled .main-navigation ul ul a,
+.google-fonts-disabled .widget-area .rpwe-block h3.rpwe-title a,
+.google-fonts-disabled .breadcrumbs,
+.google-fonts-disabled #cancel-comment-reply-link,
+.google-fonts-disabled .site-footer-widgets .widget a,
+.google-fonts-disabled .header-image .overlay .opacity,
+.google-fonts-disabled .slider-container.default .slider .slide .overlay-container .overlay .opacity,
+.google-fonts-disabled .woocommerce .woocommerce-ordering select,
+.google-fonts-disabled .woocommerce-page .woocommerce-ordering select,
+.google-fonts-disabled.namaha-page-builders-use-theme-styles .elementor-widget-text-editor,
+.google-fonts-disabled.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description,
+.google-fonts-disabled.namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
+.google-fonts-disabled.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
+.google-fonts-disabled.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+.google-fonts-disabled #jp-relatedposts h3.jp-relatedposts-headline {
+    font-family: 'Verdana';
+}
+
+/* Body Font Weight */
+body,
+.site-header .site-top-bar a,
+.site-header .site-header-right a,
+.breadcrumbs,
+div.wpforms-container form.wpforms-form .wpforms-field-label,
+#cancel-comment-reply-link,
+.site-footer-widgets .widget a,
+.namaha-page-builders-use-theme-styles .elementor-widget-text-editor,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
+	font-weight: 400;
+}
+
+/* Body Font Color */
+body,
+.namaha-page-builders-use-theme-styles .elementor-widget-text-editor,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description,
+.widget_namaha_social_media_links_widget .social-links li a,
+.breadcrumbs,
+.main-navigation ul ul a,
+.main-navigation.translucent ul ul a,
+.site-header.translucent .header-cart .dropdown a,
+.header-cart .dropdown,
+.site-header .site-container .main-navigation ul ul a,
+.widget-area .widget ul li a,
+.widget-area .rpwe_widget .rpwe-block h3 a,
+.site-footer-widgets .widget ul li a,
+.woocommerce .woocommerce-breadcrumb,
+.woocommerce-page .woocommerce-breadcrumb,
+.woocommerce ul.products li.product .price,
+.woocommerce #content ul.products li.product span.price,
+.woocommerce-page #content ul.products li.product span.price,
+.woocommerce #content div.product p.price,
+.woocommerce-page #content div.product p.price,
+.woocommerce-page div.product p.price,
+.woocommerce #content div.product span.price,
+.woocommerce div.product span.price,
+.woocommerce-page #content div.product span.price,
+.woocommerce-page div.product span.price,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce #reviews #comments ol.commentlist li .meta,
+#add_payment_method #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box,
+.content-area ul.product_list_widget li .product-title,
+.site-content .rpwe-block h3 a,
+.site-content .rpwe-time:after,
+.namaha-page-builders-use-theme-styles .elementor-widget-text-editor,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
+	color: #4C5250;
+}
+
+.rpwe-time,
+.select2-default {
+	color: rgba(88, 88, 90, 0.7) !important;
+}
+
+::-webkit-input-placeholder {
+	color: rgba(88, 88, 90, 0.7);
+}
+:-moz-placeholder {
+	color: rgba(88, 88, 90, 0.7);
+}
+::-moz-placeholder {
+	color: rgba(88, 88, 90, 0.7);
+}
+:-ms-input-placeholder {
+	color: rgba(88, 88, 90, 0.7);
+}
+
+/* Body Font Letter Spacing */
+body,
+.site-header .site-top-bar,
+.widget_namaha_social_media_links_widget .social-links li a,
+.breadcrumbs,
+div.wpforms-container form.wpforms-form *,
+div.wpforms-container form.wpforms-form input[type="text"],
+div.wpforms-container form.wpforms-form input[type="email"],
+div.wpforms-container form.wpforms-form input[type="tel"],
+div.wpforms-container form.wpforms-form input[type="number"],
+div.wpforms-container form.wpforms-form input[type="url"],
+div.wpforms-container form.wpforms-form input[type="password"],
+div.wpforms-container form.wpforms-form input[type="search"],
+div.wpforms-container form.wpforms-form select,
+div.wpforms-container form.wpforms-form textarea,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+select,
+textarea,
+#cancel-comment-reply-link,
+.search-block .search-field,
+.select2-drop,
+.select2-container .select2-choice,
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.select2-container--default .select2-results__option,
+.woocommerce .woocommerce-breadcrumb,
+.woocommerce-page .woocommerce-breadcrumb,
+.woocommerce .woocommerce-ordering select,
+.woocommerce-page .woocommerce-ordering select,
+.woocommerce #content .quantity input.qty,
+.woocommerce .quantity input.qty,
+.woocommerce-page #content .quantity input.qty,
+.woocommerce-page .quantity input.qty,
+.woocommerce ul.products li.product .price,
+.woocommerce #content ul.products li.product span.price,
+.woocommerce-page #content ul.products li.product span.price,
+.woocommerce #content div.product p.price,
+.woocommerce-page #content div.product p.price,
+.woocommerce-page div.product p.price,
+.woocommerce #content div.product span.price,
+.woocommerce div.product span.price,
+.woocommerce-page #content div.product span.price,
+.woocommerce-page div.product span.price,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce #reviews #comments ol.commentlist li .meta,
+#add_payment_method #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box,
+.namaha-page-builders-use-theme-styles .elementor-widget-text-editor,
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
+	letter-spacing: 0;
+}
+
+/* Button Font */
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce a.button.alt,
+.woocommerce table.cart th,
+.woocommerce-page #content table.cart th,
+.woocommerce-page table.cart th,
+.woocommerce input.button.alt,
+.woocommerce-page #content input.button.alt,
+.woocommerce table.cart inputinput[type="submit"],
+.woocommerce-page #content table.cart inputinput[type="submit"],
+.woocommerce-page table.cart inputinput[type="submit"],
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+button,
+a.button,
+.widget-area .widget a.button,
+.namaha-page-builders-use-theme-styles .widget_sow-button .ow-button-base a,
+.namaha-page-builders-use-theme-styles .elementor-widget-button .elementor-button,
+html #infinite-handle span button,
+html #infinite-handle span button:hover,
+div.wpforms-container form.wpforms-form input[type=submit],
+div.wpforms-container form.wpforms-form button[type=submit],
+div.wpforms-container form.wpforms-form .wpforms-page-button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.google-fonts-disabled.woocommerce a.button,
+.google-fonts-disabled.woocommerce-page a.button,
+.google-fonts-disabled.woocommerce a.button.alt,
+.google-fonts-disabled.woocommerce table.cart th,
+.google-fonts-disabled.woocommerce-page #content table.cart th,
+.google-fonts-disabled.woocommerce-page table.cart th,
+.google-fonts-disabled.woocommerce input.button.alt,
+.google-fonts-disabled.woocommerce-page #content input.button.alt,
+.google-fonts-disabled.woocommerce table.cart inputinput[type="submit"],
+.google-fonts-disabled.woocommerce-page #content table.cart inputinput[type="submit"],
+.google-fonts-disabled.woocommerce-page table.cart inputinput[type="submit"],
+.google-fonts-disabled.woocommerce #respond input#submit,
+.google-fonts-disabled.woocommerce a.button,
+.google-fonts-disabled.woocommerce button.button,
+.google-fonts-disabled.woocommerce input.button,
+.google-fonts-disabled button,
+.google-fonts-disabled a.button,
+.google-fonts-disabled .widget-area .widget a.button,
+.google-fonts-disabled.namaha-page-builders-use-theme-styles .widget_sow-button .ow-button-base a,
+.google-fonts-disabled.namaha-page-builders-use-theme-styles .elementor-widget-button .elementor-button,
+.google-fonts-disabled #infinite-handle span button,
+.google-fonts-disabled #infinite-handle span button:hover,
+.google-fonts-disabled div.wpforms-container form.wpforms-form input[type=submit],
+.google-fonts-disabled div.wpforms-container form.wpforms-form button[type=submit],
+.google-fonts-disabled div.wpforms-container form.wpforms-form .wpforms-page-button,
+.google-fonts-disabled input[type="button"],
+.google-fonts-disabled input[type="reset"],
+.google-fonts-disabled input[type="submit"] {
+	font-family: 'verdana';
+}
+
+/* Button Font Weight */
+a.button,
+.widget-area .widget a.button,
+.namaha-page-builders-use-theme-styles .widget_sow-button .ow-button-base a,
+.namaha-page-builders-use-theme-styles .elementor-widget-button .elementor-button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+html #infinite-handle span button,
+html #infinite-handle span button:hover,
+div.wpforms-container form.wpforms-form input[type=submit],
+div.wpforms-container form.wpforms-form button[type=submit],
+div.wpforms-container form.wpforms-form .wpforms-page-button {
+	font-weight: 400;
+}
+
+/* Button Font Letter Spacing */
+a.button,
+.widget-area .widget a.button,
+.namaha-page-builders-use-theme-styles .widget_sow-button .ow-button-base a,
+.namaha-page-builders-use-theme-styles .elementor-widget-button .elementor-button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+html #infinite-handle span button,
+html #infinite-handle span button:hover,
+div.wpforms-container form.wpforms-form input[type=submit],
+div.wpforms-container form.wpforms-form button[type=submit],
+div.wpforms-container form.wpforms-form .wpforms-page-button {
+	letter-spacing: 0;
+}
+
+/* Form Input Font Color */
+div.wpforms-container form.wpforms-form input[type="text"],
+div.wpforms-container form.wpforms-form input[type="email"],
+div.wpforms-container form.wpforms-form input[type="tel"],
+div.wpforms-container form.wpforms-form input[type="number"],
+div.wpforms-container form.wpforms-form input[type="url"],
+div.wpforms-container form.wpforms-form input[type="password"],
+div.wpforms-container form.wpforms-form input[type="search"],
+div.wpforms-container form.wpforms-form select,
+div.wpforms-container form.wpforms-form textarea,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+select,
+textarea,
+.search-block .search-field,
+.select2-drop,
+.select2-container .select2-choice,
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.select2-container--default .select2-results__option,
+.woocommerce .woocommerce-ordering select,
+.woocommerce-page .woocommerce-ordering select,
+.woocommerce #content .quantity input.qty,
+.woocommerce .quantity input.qty,
+.woocommerce-page #content .quantity input.qty,
+.woocommerce-page .quantity input.qty {
+	color: #4C5250; 
+}
+
+/* Widget Title Site Content Font Color */
+.site-content .widget-title {
+    color: #8D9C71;
+}
+
+/* Widget Title Sidebar / Footer Font Color */
+.widget-area .widget h2,
+.site-footer-widgets .widgettitle {
+    color: #4C5250;
+}
+
+/* Widget Title Underline Color */
+.widget-area .widget h2.widget-title:before,
+.widget-area .widget h2.widget-title:after,
+.site-footer-widgets .site-container .widgets-container .widget h2.widgettitle:before,
+.site-footer-widgets .site-container .widgets-container .widget h2.widgettitle:after {
+     background-color: #8D9C71;
+}
+
+/* Site Logo Area Solid Font Color */
+.site-header .site-header-right, 
+.site-header .site-header-right a {
+	color: #8D9C71;
+}
+
+.site-header.forced-solid .site-header-right, 
+.site-header.forced-solid .site-header-right a:not(:hover) {
+	color: #8D9C71 !important;
+}
+
+/* Site Logo Area Translucent Font Color */
+.site-header.translucent .site-header-right, 
+.site-header.translucent .site-header-right a {
+	color: #8D9C71;
+}
+
+/* Slider Text Overlay Font Color */
+.slider-container.default .slider .slide .overlay-container .overlay .opacity h1,
+.slider-container.default .slider .slide .overlay-container .overlay .opacity h2,
+.slider-container.default .slider .slide .overlay-container .overlay .opacity {
+	color: #FFFFFF;
+}
+
+/* Header Video Text Overlay Font Color */
+.header-video .overlay .opacity h1,
+.header-video .overlay .opacity h2,
+.header-video .overlay .opacity {
+	color: #FFFFFF;
+}
+
+/* Header Image Text Overlay Font Color */
+.header-image .overlay .opacity h1,
+.header-image .overlay .opacity h2,
+.header-image .overlay .opacity {
+	color: #FFFFFF;
+}
+
+/* Navigation Menu Color */
+.main-navigation,
+.main-navigation.boxed .main-menu-container {
+	background-color: #F1F1F0;
+}
+
+/* Navigation Menu Font */
+.site-header .site-header-right .main-navigation .menu > ul > li > a,
+.site-header .site-header-right .main-navigation ul.menu > li > a,
+.main-navigation .menu > ul > li > a,
+.main-navigation ul.menu > li > a,
+.main-navigation .search-button a {
+    font-family: 'Lato', sans-serif;
+}
+
+.google-fonts-disabled .site-header .site-header-right .main-navigation .menu > ul > li > a,
+.google-fonts-disabled .site-header .site-header-right .main-navigation ul.menu > li > a,
+.google-fonts-disabled .main-navigation .menu > ul > li > a,
+.google-fonts-disabled .main-navigation ul.menu > li > a,
+.google-fonts-disabled .main-navigation .search-button a {
+    font-family: 'Arial';
+}
+
+.main-navigation .menu > ul > li > a,
+.main-navigation ul.menu > li > a {
+	font-weight: 400;
+}
+
+/* Navigation Menu Solid Font Color */
+.main-navigation .menu > ul > li > a,
+.main-navigation .menu > ul > li > a:hover,
+.main-navigation ul.menu > li > a,
+.main-navigation ul.menu > li > a:hover,
+.main-navigation .search-button a,
+.main-navigation .search-button a:hover,
+.header-menu-button .otb-fa.otb-fa-bars {
+	color: #4D5351;
+}
+
+.site-header.forced-solid .main-navigation .menu > ul > li > a,
+.site-header.forced-solid .main-navigation .menu > ul > li > a:hover,
+.site-header.forced-solid .main-navigation ul.menu > li > a,
+.site-header.forced-solid .main-navigation ul.menu > li > a:hover,
+.site-header.forced-solid .main-navigation .search-button a,
+.site-header.forced-solid .main-navigation .search-button a:hover {
+	color: #4D5351 !important;
+}
+
+/* Navigation Menu Translucent Font Color */
+.main-navigation.translucent .menu > ul > li > a,
+.main-navigation.translucent .menu > ul > li > a:hover,
+.main-navigation.translucent ul.menu > li > a,
+.main-navigation.translucent ul.menu > li > a:hover,
+.site-header.translucent .site-container .main-navigation .menu > ul > li > a,
+.site-header.translucent .site-container .main-navigation .menu > ul > li > a:hover,
+.site-header.translucent .site-container .main-navigation ul.menu > li > a,
+.site-header.translucent .site-container .main-navigation ul.menu > li > a:hover,
+.main-navigation .search-button a,
+.main-navigation .search-button a:hover,
+.site-header.translucent .site-container .main-navigation .search-button a,
+.site-header.translucent .site-container .main-navigation .search-button a:hover,
+.main-navigation.translucent .search-button .otb-fa-search,
+.main-navigation.translucent .search-button .otb-fa-search:hover,
+.site-header.translucent .site-container .main-navigation .search-button .otb-fa-search,
+.site-header.translucent .site-container .main-navigation .search-button .otb-fa-search:hover {
+	color: #4D5351;
+}
+
+/* Navigation Menu Transparent Font Color */
+.main-navigation .search-button a,
+.main-navigation .search-button a:hover {
+	color: #FFFFFF;
+}
+
+/* Navigation Menu Rollover Background Color */
+.main-navigation.rollover-background-color a:hover,
+.main-navigation.rollover-background-color li.current-menu-item > a,
+.main-navigation.rollover-background-color li.current_page_item > a,
+.main-navigation.rollover-background-color li.current-menu-parent > a,
+.main-navigation.rollover-background-color li.current_page_parent > a,
+.main-navigation.rollover-background-color li.current-menu-ancestor > a,
+.main-navigation.rollover-background-color li.current_page_ancestor > a,
+.main-navigation.rollover-background-color button {
+	background-color: rgba(255, 255, 255, 0.3);
+	background-color: #8D9C71;
+}
+
+/* Navigation Menu Rollover Font Color */
+.main-navigation.rollover-background-color a:hover,
+.site-header .site-container .main-navigation.rollover-background-color a:hover,
+.main-navigation.rollover-background-color li.current-menu-item > a,
+.main-navigation.rollover-background-color li.current_page_item > a,
+.main-navigation.rollover-background-color li.current-menu-parent > a,
+.main-navigation.rollover-background-color li.current_page_parent > a,
+.main-navigation.rollover-background-color li.current-menu-ancestor > a,
+.main-navigation.rollover-background-color li.current_page_ancestor > a,
+.main-navigation.rollover-background-color .menu ul li a:hover,
+.main-navigation.rollover-background-color button,
+.main-navigation.rollover-background-color .search-button:hover .otb-fa-search {
+	color: #FFFFFF !important;
+}
+
+/* Zebra Stripe Even Color */ 
+body.home.namaha-one-page-mode ul.sections.zebra > li.even {
+	background-color: #F5F5F5;
+}
+
+/* Slider overlay background color */
+.slider-container.default .slider .slide .opacity {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* Slider text overlay background color and button rollover color */
+.slider-container.default .slider .slide .overlay-container .opacity,
+.slider-container.default .slider .slide .overlay-container .opacity-left,
+.slider-container.default .slider .slide .overlay-container .opacity-right {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+/* Header Video overlay background color */
+.header-video .opacity {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* Header Video text overlay background color */
+.header-video .overlay-container .opacity,
+.header-video .overlay-container .opacity-left,
+.header-video .overlay-container .opacity-right {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+/* Header Image overlay background color */
+.header-image .opacity {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* Header Image text overlay background color */
+.header-image .overlay-container .opacity,
+.header-image .overlay-container .opacity-left,
+.header-image .overlay-container .opacity-right {
+	background-color: rgba(255, 255, 255, 0);
+}
