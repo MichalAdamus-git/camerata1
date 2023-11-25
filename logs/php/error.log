@@ -365,3 +365,46 @@ Stack trace:
 [13-Nov-2023 22:19:41 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 256
 [13-Nov-2023 22:19:41 UTC] PHP Parse error:  syntax error, unexpected token "function" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 256
 [14-Nov-2023 15:57:48 UTC] PHP Parse error:  syntax error, unexpected token "=", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 8
+[17-Nov-2023 17:25:34 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 994
+[17-Nov-2023 17:25:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[17-Nov-2023 17:25:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[17-Nov-2023 17:25:34 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 994
+[17-Nov-2023 17:26:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php on line 3
+[17-Nov-2023 17:26:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php on line 3
+[17-Nov-2023 17:26:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php on line 3
+[17-Nov-2023 17:28:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php on line 3
+[18-Nov-2023 00:12:41 UTC] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "," or ";" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\main-navigation.php on line 37
+[18-Nov-2023 22:25:16 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 6
+[18-Nov-2023 22:32:26 UTC] PHP Parse error:  Unmatched '}' in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 72
+[18-Nov-2023 22:32:28 UTC] PHP Parse error:  Unmatched '}' in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 72
+[18-Nov-2023 22:42:10 UTC] PHP Parse error:  Unmatched '}' in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php on line 11
+[18-Nov-2023 22:42:21 UTC] PHP Parse error:  syntax error, unexpected identifier "get_template_part" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php on line 25
+[19-Nov-2023 21:02:52 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\customizer-defaults.php on line 104
+[19-Nov-2023 21:02:52 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\customizer-defaults.php on line 104
+[19-Nov-2023 21:16:59 UTC] PHP Warning:  Undefined array key "colors_header_bg" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\customizer-defaults.php on line 102
+[19-Nov-2023 21:17:34 UTC] PHP Warning:  Undefined array key "colors_header_bg" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\customizer-defaults.php on line 101
+[19-Nov-2023 21:17:36 UTC] PHP Warning:  Undefined array key "colors_header_bg" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\customizer-defaults.php on line 101
+[19-Nov-2023 21:18:41 UTC] PHP Warning:  Undefined array key "colors_header_bg" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\customizer-defaults.php on line 101
+[20-Nov-2023 13:45:33 UTC] PHP Parse error:  syntax error, unexpected identifier "ashe_options" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\dynamic-css.php on line 61
+[20-Nov-2023 13:45:33 UTC] PHP Parse error:  syntax error, unexpected identifier "ashe_options" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\dynamic-css.php on line 61
+[20-Nov-2023 13:46:20 UTC] PHP Parse error:  syntax error, unexpected identifier "esc_html" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\dynamic-css.php on line 61
+[20-Nov-2023 13:46:20 UTC] PHP Parse error:  syntax error, unexpected identifier "esc_html" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\dynamic-css.php on line 61
+[20-Nov-2023 13:46:42 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\dynamic-css.php on line 68
+[20-Nov-2023 13:46:42 UTC] PHP Parse error:  syntax error, unexpected token "if" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\customizer\dynamic-css.php on line 68
+[20-Nov-2023 15:01:13 UTC] PHP Parse error:  syntax error, unexpected token "/" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\main-navigation.php on line 38
+[20-Nov-2023 15:01:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\index.php on line 3

@@ -271,13 +271,19 @@
 /* Viewport Size 480px */
 @media screen and (max-width: 480px) {
   #top-bar > div,
-  #main-nav > div,
+  #main-nav- > div,
   #featured-links,
   .main-content,
   .page-footer-inner {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
+  /*
+  #main-nav > div {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  */
 
   .slider-item-bg,
   #featured-slider.boxed-wrapper .slider-item-bg {
@@ -484,6 +490,7 @@
   .entry-header {
     height: auto !important;
     padding: 50px 0 !important;
+    padding-top: 0 !important;
   }
 }
 

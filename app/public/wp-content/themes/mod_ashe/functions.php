@@ -987,18 +987,28 @@ function ashe_register_recommended_plugins() {
 
 // add_action( 'tgmpa_register', 'ashe_register_recommended_plugins' );
 
-/*
 function custom_login () {
 	?>
 	<style type="text/css">
-        #login h1 a, .login h1 a {
-            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/site-login-logo.png);
-		height:65px;
-		width:320px;
-		background-size: 320px 65px;
-		background-repeat: no-repeat;
-        	padding-bottom: 30px;
-        }
+        #login h1 a , .login h1 a {
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>./assets/images/loglogo.jpg);
+			height: 100px;
+			width: 320px;
+			background-size: 320px 100px; }
+		body.login {
+
+			/* background-image: url(<?php echo get_stylesheet_directory_uri(); ?>./assets/images/ashe_login.jpg);
+			background-size: cover;
+			*/
+			background-color: white;
+			
+		}
     </style>
 <?php } 
-*/
+
+add_action('login_enqueue_scripts','custom_login');
+
+function qode_use_dashicons_on_front_end() {
+	wp_enqueue_style( 'dashicons' );
+	}
+	add_action( 'wp_enqueue_scripts', 'qode_use_dashicons_on_front_end' );

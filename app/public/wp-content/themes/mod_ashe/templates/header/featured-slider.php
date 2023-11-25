@@ -1,7 +1,12 @@
 <?php
 if (is_front_page()) {
 get_template_part( 'templates/single/aktualnosci' );
+} elseif ( is_home() ) {
+get_template_part('templates/single/blog');
 }
+/*
+remember to change this query with numebr only for frontpage
+*/
 $query = new WP_Query(array(
    'post_type' => 'post',
    'posta_status' => 'publish',

@@ -15,6 +15,7 @@
 		</div>
 		<?php endif; ?>
 
+
 		<?php 
 			if (! is_user_logged_in()) {
 				?>
@@ -26,12 +27,17 @@
 				?>
 			<div class="sign_up">
 				<form method="post">
-				<input class="butt" type="submit" name="wylog" value="wyloguj się"/>
+				<input class="butt" type="submit" name="wylog" value="wyloguj się" style="font-size: 11px"/>
 			</form>
 			</div>
 			<?php
 
 			} ?>
+
+		<div id="home_icon">
+			<a href="<?php echo esc_url(site_url('/')) ?>"><img src="<?php echo  get_template_directory_uri() ?>./assets/images/icons_home.png" id="icon"></a>
+		</div>
+		
 
 		<!-- Mini Logo -->
 		<?php

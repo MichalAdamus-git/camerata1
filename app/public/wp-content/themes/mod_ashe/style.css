@@ -1,7 +1,7 @@
 /*
-Theme Name: MOD_Ashe
+Theme Name: Camerata 
 Theme URI: https://wp-royal-themes.com/themes/item-ashe-free/
-Author: WP Royal
+Author: Michał Adamus
 Author URI: https://wp-royal-themes.com/
 Description: Personal and Multi-Author Free WordPress Blog Theme. Perfect for personal, lifestyle, health & fitness, food, cooking, bakery, travel, beauty, fashion, wedding, photography, news, quotes blog, auto blog, small business website and any other kind of amazing blogs. Minimal, elegant & mobile friendly layout with WooCommerce shop (storefront) support will WOW and inspire your visitors. Well documented and very easy to use even for WordPress beginners. Clean and Modern Responsive design will perfectly showcase your content on any device, even on tablet, mobile & retina displays. Very fast, compatibility with many popular plugins & of course translation & RTL (right to left language) ready, coded with best SEO practices. The theme has features like Text & Image logo, Fullscreen Slider, Header image, Instagram slider widget support, footer menu support, GDPR compatibility plugins support and many more. Works perfectly with all major drag and drop page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi. You just need to write and be awesome! TEMPLATE DEMO: https://ashe-free.wp-royal-themes.com/demo/
 Version: 2.217
@@ -380,10 +380,11 @@ html {
 .boxed-wrapper {
   margin: 0 auto;
 }
-
-#page-header.boxed-wrapper {
-  padding: 0 !important;
+/*
+#page-header {
+  background-image: url("./assets/images/ashe_bg.jpg");
 }
+*/
 
 .main-content {
   padding-top: 40px;
@@ -1114,7 +1115,7 @@ sup {
 
 .mobile-menu-btn {
   display: none;
-  padding: 0 15px;
+  padding: 0px;
   font-size: 18px;
   line-height: 60px;
   cursor: pointer;
@@ -1248,16 +1249,17 @@ sup {
   z-index: 1;
   position: relative;
   float: left;
-  padding-top: 1px;
   font-size: 16px;
   line-height: 60px;
-  margin-left: 30px;
+  margin-left: 22px;
   margin-right: 0px;
 }
 
 .butt {
   cursor: pointer;
   background-color: #ffffff;
+  font-size: 11px;
+  width: 68.5px;
 }
 
 .butt:active {
@@ -3228,7 +3230,7 @@ body,
 }
 
 .aktualnosci {
-  margin: 5px;
+  margin-bottom: 5px;
 }
 
 .aktualnosci-txt {
@@ -3256,7 +3258,19 @@ body,
   border-color: #ca9b52;
 }
 */
-.cv-inner {
+.entry-header {
   border-style: solid;
   border-color: #ca9b52;
+}
+
+#home_icon {
+  position: relative;
+  z-index: 1;
+  float: left;
+  padding-top: 20px;
+
+  margin-left: 5px;
+  line-height: 60px;
+  margin-right: 8px;
+  cursor: pointer;
 }
