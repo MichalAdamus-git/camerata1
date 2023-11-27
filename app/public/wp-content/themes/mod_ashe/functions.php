@@ -355,6 +355,7 @@ if ( ! function_exists( 'ashe_add_image_sizes' ) ) {
 		add_image_size( 'ashe-list-thumbnail', 300, 300, true );
 		add_image_size( 'ashe-grid-thumbnail', 500, 330, true );
 		add_image_size( 'ashe-single-navigation', 75, 75, true );	
+		
 	}
 }
 
@@ -1012,3 +1013,11 @@ function qode_use_dashicons_on_front_end() {
 	wp_enqueue_style( 'dashicons' );
 	}
 	add_action( 'wp_enqueue_scripts', 'qode_use_dashicons_on_front_end' );
+
+function adamus_pro_img_size () {
+	add_image_size('adamus-pro', 20, 20, false);
+}
+
+add_action('adamus_pro_img_size', 'init');
+
+

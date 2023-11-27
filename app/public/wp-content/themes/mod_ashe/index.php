@@ -19,6 +19,7 @@ get_header(); ?>
 	get_template_part( 'templates/sidebars/sidebar', 'left' ); 
 
 	// Blog Feed Wrapper
+	
 	if ( strpos( ashe_options( 'general_home_layout' ), 'list' ) === 0 ) {
 		get_template_part( 'templates/grid/blog', 'list' );
 	} else {

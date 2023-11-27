@@ -31,13 +31,22 @@ if ( is_front_page() ) {
 	<?php 
 		the_post();
 		$pgt = get_the_title();
-		if ( $pgt !== "Nuty" && $pgt !== "Wydarzenia") {
+		if ( $pgt !== "Nuty" && $pgt !== "Wydarzenia" && $pgt !== "Archiwalna strona") {
 		?>
 		<div class="dmpage">
 			<h2 class="mpage-title"><?php the_title() ?></h2>
 			<p class="mpgae"><?php the_content() ?></p>
 		</div>
 		<?php
+		} elseif ( $pgt == "Archiwalna strona") {
+			?>
+			<div class="dmpage">
+			<h2 class="mpage-title"><?php the_title() ?></h2>
+			<p class="mpgae"><?php the_content() ?></p>
+			<h2 class="archiwum"><a href="<?php echo content_url('/camerata_archiwum/Camerata_archiwum/cameratawieliczka.pl/index.html') ?>">Zapraszamy do odwiedzenia archiwlanej strony chóru.</a></h2>
+			</div>
+			<?php
+	
 		} elseif ( $pgt == "Nuty") {
 			if ( is_user_logged_in() ) {
 		?>
@@ -89,6 +98,7 @@ if ( is_front_page() ) {
 		</div>
 		<?php
 	}
+	
 	?>
 
 	<?php	

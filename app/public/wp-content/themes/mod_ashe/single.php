@@ -37,11 +37,13 @@
 	</div><!-- .main-container -->
 
 
-	<?php // Sidebar Right
-
+	<?php // Sidebar Right ?>
+<aside id="single_rs_container">
+	<?php
 	get_template_part( 'templates/sidebars/sidebar', 'right' );
 
 	?>
+</aside>
 
 </div><!-- .page-content -->
 

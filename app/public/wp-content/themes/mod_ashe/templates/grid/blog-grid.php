@@ -10,6 +10,7 @@
 
 	// Blog Grid
 	echo '<ul class="blog-grid">';
+	if (! is_home()) {
 	
 	if ( have_posts() ) :
 
@@ -140,6 +141,7 @@
 	<?php
 	
 	endif; // have_posts()
+}
 
 	echo '</ul>';
 

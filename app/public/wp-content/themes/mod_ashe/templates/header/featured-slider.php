@@ -20,12 +20,19 @@ $n = 0;
  while($query->have_posts()) {
     $query->the_post(); ?>
     <div class="post-item<?php echo $n ?>">
+    <?php if (is_home()) { ?>
+      <div id="adamus-pro-thumbnail">
+      <?php
+      the_post_thumbnail(); ?>
+      </div>
+      <?php
+   } ?>
     <span>
     <h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
    </span>
 
     <div class="metabox">
-     <p><?php echo(get_the_date()) ?> </p>
+     <p><?php echo(get_the_date()) ?> </pa>
     </div>
     <div class="generic-content ">
      <?php the_excerpt(); ?>

@@ -1,0 +1,287 @@
+html, body {
+	background-color: #fffaab;
+	color: #000000;
+	font-size: 0.9em;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	line-height: 150%;
+	margin: 3px 0;
+	padding: 0;
+}
+/* elementy konstrukcyjne*/
+#container {
+	/* = top + menu_left + tresc + stopka z doln¹ 5lini¹*/
+	width: 851px;
+	background-image: url(nuty-bok.png);
+	background-position: right top;
+	background-repeat: repeat-y;
+	margin: 0 auto;
+	padding-bottom: 0;
+}
+#top{ /*nag³ówek strony -- po wstawieniu logo-big zostaje 470px szerokoœci na 1-no zdjêcie, 465px na dwa i 460px na trzy zdjêcia*/
+	width: 720px;
+	height: 140px;
+	margin-left: 0px;
+	padding-top: 0;
+	text-align: right; /*¿eby zdjêcia nag³ówkowe równa³y do prawej bez floata, pozycja nag³ówkowego logo jest okreœlona w HTMlu - ono floatuje o dziwo, hm..., póki siê nic nie rozpadywuje*/
+}
+#menu_left {
+	width: 210px;
+	float: left;
+	font-family: Cambria, Georgia, "Times New Roman", cursive;
+	font-style: italic;
+	font-size: 1.1em;	
+	padding-bottom: 15px;/*tak du¿o, ¿eby ostatni link menu by³ klikalny*/
+	padding-top: 3px;
+	background-color: #954008;
+}
+#log_home{/*pozycja logo w menu strony g³ównej*/
+	text-align: center;
+	margin-top: -39px;
+}
+#tresc {
+	float: left;
+	width: 480px; 
+	padding: 15px 15px 30px 15px;
+	text-align: justify;
+	min-height: 10em;
+}
+#b_men{/*format obszaru treœci stron bez menu*/
+	clear: both;
+	width:700px; /*a nie na ca³¹ szerokoœæ 720px, bo padding-right jest 20px, a to siê sumuje, kotuœ;)*/
+	margin: 0;
+	padding: 0 20px 30px 0;
+	text-align: justify;
+}
+#title {/*tytu³y podstron*/
+	clear: both;
+	width: 485px;
+	background-color: #954008;
+	color: #fff17d;
+	font-family: Cambria, Georgia, "Times New Roman", cursive;
+	font-style: italic;
+	font-size: 1.3em;
+	letter-spacing: 0.1em;
+	font-weight: normal;
+	margin-left: 0;
+	padding-left: 235px;
+	line-height:37px;
+}
+.txt_menu{/*format linku do logowania dla chórzystów; ew. tekst tej klasy w menu jest czarny*/
+	font-size: 0.8em;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+
+#titneg{ /*negatyw bloku title do archiwum aktualnoœci - kolor t³a - jak dla <body>, br¹zowe litery, lewy margines, bo "jakoœ" blok menu wystaje nad #tresc*/
+	background-color: #fffaab;
+	color: #954008;
+	margin-left: -25px;
+	padding-left: 25px;
+}
+#plinia{/*dolna 5linia, a w niej stopka*/
+	clear: both;
+	width: 720px;
+	height: 170px;
+	text-align: center;
+	/*wyci¹gniêcie 5linii do góry, bo float menu i treœci oraz clear w plinia, 5linia ustawia sie POD menu/tresci¹ (zale¿y, co d³u¿sze) i  ujemny margines nie dzia³a*/
+	position: relative;
+	left:40px;
+	top: -15px;
+	/*ogon od #container na dole = puste miejsce po 5linii i stopce (z boku tlo nutkowe ci¹gn¹ce siê poni¿ej stopki) jest efektem wyci¹gniêcia 5linii do góry (powy¿sze "top: -..px") - skutkuje to "zostawieniem miejsca" przynale¿nego po³o¿eniu 5linii bez przesuniêcia do góry o te ..px*/
+}
+#stopka {
+	width: 720px;
+	text-align: center;
+	margin-top: -30px;
+	padding: 0;
+	font-size: 0.7em;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+#stopka a>img:hover {
+	background-color: #fffcf1;
+	border: none;
+}
+
+/* format - menu boczne*/
+ul#mb {
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding-left: 50px;
+	line-height: 90%; /*trochê za gêsto, ale przy wiêkszych odstêpach czêœæ menu jest "przykryta doln¹ 5lini¹ i ostatni link jest nieklikalny, albo na stronie g³ównej nie wida¿ dolnej 5linii w mmniej wiêcej ca³oœæi*/
+}
+ul#mb>li {
+	margin:0;
+	padding: 7px 0 0 0;
+}
+#menu_left a:link, #menu_left a:visited{
+	color: #fff17d;
+	text-decoration: none;
+}
+#menu_left a:hover{
+		color: #ffffff;
+}
+
+/*   format tekstu   */
+h1, h2{/*chyba nie wiem, czy h1 jest gdziekolwiek wykorzystany*/
+	color: #954008;
+	font-family: Cambria, Georgia, "Times New Roman", cursive;
+	font-style: italic;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+}
+h2{	/*data w aktualnoœciach*/
+	font-size: 0.9em;
+	font-weight: normal;
+	border-bottom: thin groove #954008;
+}
+#tresc a:link, #tresc a:visited, #b_men a:link, #b_men a:visited {
+	color: #863500;
+}
+#tresc a:hover, #b_men a:hover {
+	text-decoration: none;
+}
+.dalej a:link, .dalej a:visited {/*link "czytaj dalej..." - bez podkreslenia*/
+	text-decoration: none;
+}
+a>img{
+	border: none;
+}
+a>img:hover {
+	border-color: #fffaab;
+	border-width: 1px;
+	border-style: none none none inset;
+}
+
+/*formaty pomocnicze*/
+.brown{
+	color: #954008;
+}
+
+em{	/*letter-spacing: 0.1em;*/
+	font-family: Cambria, Georgia, "Times New Roman", cursive;
+	font-style: italic;
+	font-size: 1.1em;
+	font-weight: lighter;
+}
+.fr{/*szerokoœæ bloku na 3-kolumnowe fraszki*/
+	width: 140px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+.fr2{
+	width: 280px;
+	margin: 0;
+	padding: 0 40px 0 40px;
+}
+
+.fr_txt{/*format tekstu fraszki, podpis => osobny blok, bez kursywy*/
+	font-family: Cambria, Georgia, "Times New Roman", cursive;
+	font-style: italic;
+	font-size: 1.Oem;
+	/*font-weight: lighter;*/
+	text-align: left;
+}
+blockquote {/*m.in. tekst piosenki*/
+	font-family: Cambria, Georgia, "Times New Roman", cursive;
+	font-style: italic;
+	font-size: 1.1em;
+	font-weight: lighter;
+}
+.left {
+	text-align: left;
+}
+.praft{
+	text-align: right;
+}
+.center{
+	text-align: center;
+}
+/* format obrazków oblanych tekstem */
+.img_praft {
+	float: right;
+	padding-left: 20px
+}
+.img_left {
+	float: left;
+	padding-right: 20px;
+}
+.cl {	/* float - clear both -- po zdjêciu oblanym przez tekst, ¿eby nastêpny blok zacz¹³ siê poni¿ej */
+	clear: both;
+}
+.b_zn{/*wyliczanka bez znaczników*/
+	list-style: none;
+}
+.int/* wciêcie*/
+{
+	padding-left: 20px;
+}
+.intp{/*wciêcie z prawej*/
+	padding-right: 20px;
+}
+.int60{/*wciêcie we fraszkach - rys. z prawej (float-praft)*/
+	padding-left: 60px;
+}
+.int200{/*wciêcie we fraszkach - rys. z lewej(float-left)*/
+	padding-left: 200px;
+}
+
+.wys{/*wysuniêcie z lewej*/
+	padding-left: -20px;
+}
+.dist_l {/*odstêp z lewej dla elementu blokowego*/
+	padding-left: 10%
+}
+.lh100{
+	line-height: 100%
+}
+.odst /* odstep górny dla bloku*/
+{
+	padding-top: 15px;
+}
+.odstd{/*odstêp dolny dla bloku*/
+	padding-bottom: 15px;
+}
+.odst40{/*odstêp górny dla bloku we fraszkach, 1linia = 20px (nie pytaj, dalczego?)*/
+	padding-top: 40px;
+}
+.marg-15{/*wyci¹gniêcie zawartoœci bloku o 15px do, powy¿ej granicy bloku*/
+	margin-top: -15px;
+}
+.zm{
+	font-size: smaller; 
+}
+.zw{
+	font-size: medium;
+}
+.zw3{/*format tekstu w nag³ówku aktualnoœci*/
+	padding-top: 70px;
+	font-size: 2.8em;
+	font-family: Cambria, Georgia, "Times New Roman", cursive;
+	font-style: italic;
+	color: #954008;
+}
+/*format fraszki z rysunkiem z lewej*/
+.rl{
+	padding-top: 15px;
+	padding-left: 20px;
+	clear: both;
+}
+.rl>div:first-child{/*rysunek*/
+	float: left;
+	padding-right: 50px;
+}
+
+/*format fraszki z rysunkiem z prawej*/
+.rp{
+	padding: 15px 20px 0 80px;
+	clear: both;
+}
+.rp>div:first-child{/*rysunek*/
+	float: right;
+	padding-left: 50px;
+}
+
+

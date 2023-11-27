@@ -1,3 +1,3 @@
 <div class="aktualnosci">
-    <h2 class="aktualnosci-txt">Archiwum</h2>
+    <h2 class="aktualnosci-txt">Ogłoszenia</h2>
 </div>

@@ -1,0 +1,44 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 26 Nov 2023 19:24:25 at http://cameratawieliczka.pl +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://cameratawieliczka.pl -O1 "C:\My Web Sites\Camerata_archiwum" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:24:32	Error: 	"Not Found" (404) at link cameratawieliczka.pl/stuff/styl.css (from cameratawieliczka.pl/)
+19:38:26	Warning: 	file not stored in cache due to bogus state (broken size, expected 8511082 got 4965460): cameratawieliczka.pl/stuff/gdy_sie_chrystus_rodzi.mp3
+19:46:03	Warning: 	Retry after error -4 (Incorrect length (4965460 Bytes, 8511082 expected)) at link cameratawieliczka.pl/stuff/gdy_sie_chrystus_rodzi.mp3 (from cameratawieliczka.pl/spiew.html)
+19:49:54	Warning: 	file not stored in cache due to bogus state (broken size, expected 8497499 got 7974520): cameratawieliczka.pl/stuff/w_zlobie_lezy.mp3
+19:49:54	Warning: 	Retry after error -4 (Incorrect length (7974520 Bytes, 8497499 expected)) at link cameratawieliczka.pl/stuff/w_zlobie_lezy.mp3 (from cameratawieliczka.pl/spiew.html)
+19:49:54	Warning: 	Retry after error -4 (Incorrect length (105623 Bytes, 200731 expected)) at link cameratawieliczka.pl/stuff/camerata-cd2.jpg (from cameratawieliczka.pl/spiew.html)
+19:53:58	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2022/2022aktu_14.html (from cameratawieliczka.pl/z2022_aktualnosci.html)
+19:53:58	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2022/2022aktu_15.html (from cameratawieliczka.pl/z2022_aktualnosci.html)
+20:03:46	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2018/2018aktu_05.html (from cameratawieliczka.pl/z2018_aktualnosci.html)
+20:05:30	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2017/2017aktu_20.html (from cameratawieliczka.pl/z2017_aktualnosci.html)
+20:05:30	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2017/2017aktu_19.html (from cameratawieliczka.pl/z2017_aktualnosci.html)
+20:13:16	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2016/2016aktu_05.html (from cameratawieliczka.pl/z2016_aktualnosci.html)
+20:58:01	Warning: 	file not stored in cache due to bogus state (broken size, expected 7177273 got 5918840): cameratawieliczka.pl/aktu/2012/slubowanie_sejm.mp4
+20:58:41	Warning: 	file not stored in cache due to bogus state (broken size, expected 10086450 got 6175800): cameratawieliczka.pl/aktu/2012/organy_lezajsk.mp4
+21:05:03	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2020/stuff/yaspert-bai.png (from cameratawieliczka.pl/aktu/2020/2020aktu_03.html)
+21:05:03	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2019/stuff/yaspert-bai.png (from cameratawieliczka.pl/aktu/2019/2019aktu_12.html)
+21:05:03	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2018/stuff/yaspert-bai.png (from cameratawieliczka.pl/aktu/2018/2018aktu_15.html)
+21:05:03	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2017/stuff/yaspert-bai.png (from cameratawieliczka.pl/aktu/2017/2017aktu_18.html)
+21:05:03	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2015/stuff/yaspert-bai.png (from cameratawieliczka.pl/aktu/2015/2015aktu_29.html)
+21:05:03	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2014/stuff/yaspert-bai.png (from cameratawieliczka.pl/aktu/2014/2014aktu_37.html)
+21:05:03	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2014/2014aktu_32-12.jpg (from cameratawieliczka.pl/aktu/2014/2014aktu_32.html)
+21:05:03	Warning: 	Retry after error -4 (No data (connection closed)) at link cameratawieliczka.pl/aktu/2014/2014aktu_31-01.jpg (from cameratawieliczka.pl/aktu/2014/2014aktu_31.html)
+21:05:06	Warning: 	Retry after error -4 (No data (connection closed)) at link cameratawieliczka.pl/aktu/2014/2014aktu_31-09.jpg (from cameratawieliczka.pl/aktu/2014/2014aktu_31.html)
+21:05:08	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2014/2014aktu_29-02.jpg (from cameratawieliczka.pl/aktu/2014/2014aktu_29.html)
+21:05:08	Warning: 	Retry after error -4 (No data (connection closed)) at link cameratawieliczka.pl/aktu/2014/2014aktu_13-09.jpg (from cameratawieliczka.pl/aktu/2014/2014aktu_13.html)
+21:05:09	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2013/stuff/yaspert-bai.png (from cameratawieliczka.pl/aktu/2013/2013aktu_40.html)
+21:05:09	Warning: 	Retry after error -4 (Incorrect length (6175800 Bytes, 10086450 expected)) at link cameratawieliczka.pl/aktu/2012/organy_lezajsk.mp4 (from cameratawieliczka.pl/aktu/2012/2012aktu_37.html)
+21:05:11	Warning: 	Retry after error -4 (Incorrect length (5918840 Bytes, 7177273 expected)) at link cameratawieliczka.pl/aktu/2012/slubowanie_sejm.mp4 (from cameratawieliczka.pl/aktu/2012/2012aktu_37.html)
+21:05:15	Warning: 	Retry after error -4 (No data (connection closed)) at link cameratawieliczka.pl/aktu/2012/2012aktu_31-6.jpg (from cameratawieliczka.pl/aktu/2012/2012aktu_31.html)
+21:05:18	Warning: 	Retry after error -4 (No data (connection closed)) at link cameratawieliczka.pl/aktu/2012/2012aktu_31-8.jpg (from cameratawieliczka.pl/aktu/2012/2012aktu_31.html)
+21:05:20	Warning: 	Retry after error -4 (No data (connection closed)) at link cameratawieliczka.pl/aktu/2012/2012aktu_31-10.jpg (from cameratawieliczka.pl/aktu/2012/2012aktu_31.html)
+21:05:21	Warning: 	Retry after error -4 (No data (connection closed)) at link cameratawieliczka.pl/aktu/2012/2012aktu_31-12.jpg (from cameratawieliczka.pl/aktu/2012/2012aktu_31.html)
+21:05:24	Error: 	"Not Found" (404) at link cameratawieliczka.pl/aktu/2012/Aktu_13-00.jpg (from cameratawieliczka.pl/aktu/2012/2012aktu_13.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 44 minutes 22 seconds : 3131 links scanned, 3101 files written (153763779 bytes overall) [154144334 bytes received at 24615 bytes/sec], 1275011 bytes transferred using HTTP compression in 322 files, ratio 39%, 2.0 requests per connection
+(17 errors, 16 warnings, 0 messages)
