@@ -19,17 +19,26 @@ $n = 0;
    <?php
  while($query->have_posts()) {
     $query->the_post(); ?>
+   <hr class="adamus-pro-line">
     <div class="post-item<?php echo $n ?>">
-    <?php if (is_home()) { ?>
+    <?php if (has_post_thumbnail()) { ?>
       <div id="adamus-pro-thumbnail">
+      <div class="tytul_span">
+      <h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
+      </div>
+      <div class="thumbnail-div">
       <?php
       the_post_thumbnail(); ?>
       </div>
-      <?php
-   } ?>
-    <span>
+    </div>
+     <?php
+   } else { ?>
+
+   <div>
     <h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
-   </span>
+   </div>
+   <?php } ?>
+    
 
     <div class="metabox">
      <p><?php echo(get_the_date()) ?> </pa>
@@ -38,6 +47,7 @@ $n = 0;
      <?php the_excerpt(); ?>
     </div>
  </div>
+
 <?php
 $n ++;
 }

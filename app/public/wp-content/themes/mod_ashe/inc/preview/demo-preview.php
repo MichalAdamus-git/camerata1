@@ -64,7 +64,7 @@ function ashe_preview_thumbnail( $input ) {
 	));
 		foreach ($posts_arr as $key => $value) {
 		if ( has_post_thumbnail()) {
-			$placeholder = ashe_get_preview_img_src();
+			$placeholder = get_the_post_thumbnail_url();
 			return '<img src="' . esc_url( $placeholder ) . '" class="attachment-ashe-blog size-ashe-blog wp-post-image">';
 			
 	}}

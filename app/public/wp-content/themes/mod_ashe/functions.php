@@ -410,7 +410,7 @@ function ashe_excerpt_length( $link ) {
 		sprintf( __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'ashe' ), get_the_title( get_the_ID() ) )
 	);
 
-	return 2000;
+	return 100;
 }
 add_filter( 'excerpt_length', 'ashe_excerpt_length', 999 );
 

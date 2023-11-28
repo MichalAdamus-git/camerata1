@@ -14,3 +14,6 @@
 2023/11/20 23:18:13 [alert] 12976#3364: OpenEvent("ngx_master_12300") failed (2: The system cannot find the file specified)
 2023/11/25 21:48:11 [alert] 10332#8280: OpenEvent("ngx_master_14476") failed (2: The system cannot find the file specified)
 2023/11/27 14:17:09 [alert] 9212#15452: OpenEvent("ngx_master_10512") failed (2: The system cannot find the file specified)
+2023/11/28 08:51:35 [error] 4320#14188: *861 directory index of "C:/Users/micha/Local Sites/camerata1/app/public/wp-content/themes/mod_ashe/assets/images/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/themes/mod_ashe/assets/images/ HTTP/1.0", host: "camerata1.local", referrer: "http://camerata1.local/"
+2023/11/28 08:58:47 [alert] 15972#3728: OpenEvent("ngx_master_3968") failed (2: The system cannot find the file specified)
+2023/11/28 17:30:53 [alert] 11472#19284: OpenEvent("ngx_master_18040") failed (2: The system cannot find the file specified)

@@ -416,3 +416,84 @@ Stack trace:
 [27-Nov-2023 13:33:48 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 1024
 [27-Nov-2023 23:51:14 UTC] PHP Parse error:  syntax error, unexpected token "foreach", expecting "(" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 65
 [27-Nov-2023 23:51:14 UTC] PHP Parse error:  syntax error, unexpected token "foreach", expecting "(" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 65
+[28-Nov-2023 07:39:09 UTC] PHP Parse error:  syntax error, unexpected identifier "get_the_post_thumbnail", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:39:09 UTC] PHP Parse error:  syntax error, unexpected identifier "get_the_post_thumbnail", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:39:36 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:39:36 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:39:56 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:39:56 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:40:14 UTC] PHP Parse error:  syntax error, unexpected variable "$candidates" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 30
+[28-Nov-2023 07:40:14 UTC] PHP Parse error:  syntax error, unexpected variable "$candidates" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 30
+[28-Nov-2023 07:40:26 UTC] PHP Parse error:  syntax error, unexpected token "foreach" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 32
+[28-Nov-2023 07:40:26 UTC] PHP Parse error:  syntax error, unexpected token "foreach" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 32
+[28-Nov-2023 07:41:17 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-hook.php on line 329
+[28-Nov-2023 07:41:48 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-hook.php on line 329
+[28-Nov-2023 07:41:51 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:41:51 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting ")" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:42:21 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:42:21 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:42:22 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:42:22 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 29
+[28-Nov-2023 07:43:24 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-hook.php on line 329
+[28-Nov-2023 07:51:03 UTC] PHP Parse error:  syntax error, unexpected variable "$candidates" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 37
+[28-Nov-2023 07:51:03 UTC] PHP Parse error:  syntax error, unexpected variable "$candidates" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 37
+[28-Nov-2023 07:51:20 UTC] PHP Warning:  Undefined variable $imgs in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 39
+[28-Nov-2023 07:51:20 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 39
+[28-Nov-2023 07:51:20 UTC] PHP Fatal error:  Uncaught ValueError: array_rand(): Argument #1 ($array) cannot be empty in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php:46
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php(46): array_rand(Array)
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php(74): ashe_get_preview_img_src()
+#2 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-hook.php(326): ashe_preview_thumbnail('<img width="168...')
+#3 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<img width="168...', Array)
+#4 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\post-thumbnail-template.php(219): apply_filters('post_thumbnail_...', '<img width="168...', 92, 103, 'post-thumbnail', '')
+#5 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\post-thumbnail-template.php(92): get_the_post_thumbnail(Object(WP_Post), 'post-thumbnail', '')
+#6 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php(26): the_post_thumbnail()
+#7 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(792): require('C:\\Users\\micha\\...')
+#8 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(725): load_template('C:\\Users\\micha\\...', false, Array)
+#9 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#10 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\front-page.php(10): get_template_part('templates/heade...', 'slider')
+#11 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\micha\\...')
+#12 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#13 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#14 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 46
+[28-Nov-2023 07:55:03 UTC] PHP Warning:  Undefined variable $query in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 34
+[28-Nov-2023 07:55:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_posts() on null in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php:34
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php(78): ashe_get_preview_img_src()
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-hook.php(326): ashe_preview_thumbnail('<img width="168...')
+#2 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<img width="168...', Array)
+#3 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\post-thumbnail-template.php(219): apply_filters('post_thumbnail_...', '<img width="168...', 92, 103, 'post-thumbnail', '')
+#4 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\post-thumbnail-template.php(92): get_the_post_thumbnail(Object(WP_Post), 'post-thumbnail', '')
+#5 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php(26): the_post_thumbnail()
+#6 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(792): require('C:\\Users\\micha\\...')
+#7 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(725): load_template('C:\\Users\\micha\\...', false, Array)
+#8 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#9 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\front-page.php(10): get_template_part('templates/heade...', 'slider')
+#10 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\micha\\...')
+#11 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#12 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#13 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 34
+[28-Nov-2023 07:55:44 UTC] PHP Warning:  Undefined variable $posts_arr in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 37
+[28-Nov-2023 07:55:44 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 37
+[28-Nov-2023 07:55:44 UTC] PHP Warning:  Undefined global variable $ashe_preview_images in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 48
+[28-Nov-2023 07:55:44 UTC] PHP Fatal error:  Uncaught TypeError: array_rand(): Argument #1 ($array) must be of type array, null given in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php:50
+Stack trace:
+#0 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php(50): array_rand(NULL)
+#1 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php(78): ashe_get_preview_img_src()
+#2 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\class-wp-hook.php(326): ashe_preview_thumbnail('<img width="168...')
+#3 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<img width="168...', Array)
+#4 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\post-thumbnail-template.php(219): apply_filters('post_thumbnail_...', '<img width="168...', 92, 103, 'post-thumbnail', '')
+#5 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\post-thumbnail-template.php(92): get_the_post_thumbnail(Object(WP_Post), 'post-thumbnail', '')
+#6 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php(26): the_post_thumbnail()
+#7 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(792): require('C:\\Users\\micha\\...')
+#8 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template.php(725): load_template('C:\\Users\\micha\\...', false, Array)
+#9 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#10 C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\front-page.php(10): get_template_part('templates/heade...', 'slider')
+#11 C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\micha\\...')
+#12 C:\Users\micha\Local Sites\camerata1\app\public\wp-blog-header.php(19): require_once('C:\\Users\\micha\\...')
+#13 C:\Users\micha\Local Sites\camerata1\app\public\index.php(17): require('C:\\Users\\micha\\...')
+#14 {main}
+  thrown in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 50
+[28-Nov-2023 14:20:18 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 12288 bytes) in C:\Users\micha\Local Sites\camerata1\app\public\wp-includes\functions.php on line 650
