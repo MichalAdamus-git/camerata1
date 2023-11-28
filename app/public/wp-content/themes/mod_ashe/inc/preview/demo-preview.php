@@ -26,7 +26,7 @@ function ashe_get_preview_img_src( $i = 0 ) {
 
 	// Build or re-build the global dem img array
 	if ( ! isset( $GLOBALS['ashe_preview_images'] ) || empty( $GLOBALS['ashe_preview_images'] ) ) {
-		$imgs       = array( 'image_1.jpg', 'image_2.jpg', 'image_3.jpg', 'image_4.jpg', 'image_5.jpg', 'image_6.jpg' );
+		$imgs       = array( 'loglogo.jpg' );
 		$candidates = array();
 
 		foreach ( $imgs as $img ) {
@@ -59,10 +59,15 @@ function ashe_get_preview_img_src( $i = 0 ) {
 
 // Featured Images
 function ashe_preview_thumbnail( $input ) {
-	if ( empty( $input ) && ashe_is_preview() ) {
-		$placeholder = ashe_get_preview_img_src();
-		return '<img src="' . esc_url( $placeholder ) . '" class="attachment-ashe-blog size-ashe-blog wp-post-image">';
-	}
+	$posts_arr = get_posts(array(
+		'numberposts'      => -1,
+	));
+		foreach ($posts_arr as $key => $value) {
+		if ( has_post_thumbnail()) {
+			$placeholder = ashe_get_preview_img_src();
+			return '<img src="' . esc_url( $placeholder ) . '" class="attachment-ashe-blog size-ashe-blog wp-post-image">';
+			
+	}}
 	return $input;
 }
 add_filter( 'post_thumbnail_html', 'ashe_preview_thumbnail' );

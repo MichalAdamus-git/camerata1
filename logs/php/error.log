@@ -414,3 +414,5 @@ Stack trace:
 [27-Nov-2023 13:10:46 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\templates\header\featured-slider.php on line 26
 [27-Nov-2023 13:33:48 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 1024
 [27-Nov-2023 13:33:48 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\functions.php on line 1024
+[27-Nov-2023 23:51:14 UTC] PHP Parse error:  syntax error, unexpected token "foreach", expecting "(" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 65
+[27-Nov-2023 23:51:14 UTC] PHP Parse error:  syntax error, unexpected token "foreach", expecting "(" in C:\Users\micha\Local Sites\camerata1\app\public\wp-content\themes\mod_ashe\inc\preview\demo-preview.php on line 65
